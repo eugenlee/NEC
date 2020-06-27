@@ -22,7 +22,7 @@ The Sprints will be allocated as such:
 ### Sprint 2
 - Redesign front-end of existing website using [Figma](https://www.figma.com/).
 
-### Sprint 3 & 4
+### Sprints 3 & 4
 - Add back-end capabilities of newly designed website.
 - Add templates, newsletter subscription, payment system and messenger bot features.
 - Present to stakeholder & deploy.
