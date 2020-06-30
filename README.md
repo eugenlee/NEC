@@ -16,13 +16,13 @@ Back End:
 ```
 
 The Sprints will be allocated as such:
-### Sprint 1
+### Sprint 1 (June 29, 2020 - July 13, 2020)
 - Recreate front-end of existing website.
 
-### Sprint 2
+### Sprint 2 (July 13, 2020 - July 27, 2020)
 - Redesign front-end of existing website using [Figma](https://www.figma.com/).
 
-### Sprints 3 & 4
+### Sprints 3 & 4 (July 27, 2020 - August 10, 2020 && August 10, 2020 - August 24, 2020)
 - Add back-end capabilities of newly designed website.
 - Add templates, newsletter subscription, payment system and messenger bot features.
 - Present to stakeholder & deploy.
