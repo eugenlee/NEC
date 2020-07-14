@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.img_set {
+  width: 100%;
+  height: 900px;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive;
+  padding: 0px;
+
+  margin: 0px;
+}
+
+.logo img {
+  position: absolute;
+  width: 122px;
+  height: 83px;
+  border-radius: 500px;
+}
+
+.myHeader nav {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  background-color: black;
+  padding-bottom: 21px;
+  padding-top: 12px;
+  border-radius: 30px;
+  padding-right: 20px;
+  z-index: 1;
+}
+
+.myHeader nav a {
+  padding-top: 12px;
+  color: white;
+  text-decoration: none;
+  float: left;
+  margin-left: 90px;
+  font-size: 20px;
+  padding-bottom: 12px;
+  padding-right: 40px;
+  padding-left: 5px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  transition: border-radius 2.5s;
+}
+
+nav a:hover:not(.active) {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 100px;
+
+  background-color: #f8a51b;
+}
+
+.active {
+  background-color: #f8a51b;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 10px 3px red;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.socialMedia {
+  width: 45px;
+  height: 45px;
+}
+
+.scrollImage {
+  background-image: url("images/Beers.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.beers {
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.seasonalReleasesPic {
+  background-image: url("images/Kegs.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.seasonalReleases {
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.firstPic {
+  background-image: url("images/Tanks.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testingRoom {
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.images_part {
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_center {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 904px;
+  text-align: center;
+}
+
+.text_center .Second_main {
+  font-size: 50px;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  padding-top: 70px;
+  border-radius: 100px;
+  color: yellow;
+  top: 250px;
+  height: 200px;
+  right: 1px;
+  width: 100%;
+  transition: all 0.3s linear 2s;
+  animation-name: trans;
+  animation-duration: 2s;
+}
+
+@keyframes trans {
+  from {
+    opacity: 0;
+    transform: scale(10);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.about_text {
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 100px;
+  width: 1200px;
+  color: yellow;
+  margin-left: 150px;
+  box-shadow: 10px 15px 5px grey;
+  height: 800px;
+}
+
+.about_logo {
+  position: absolute;
+  top: 1022px;
+  left: 680px;
+  font-size: 75px;
+}
+
+.background_about {
+  background-image: url("../weebly export/assets/images/aboutUs_image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.aboutUS_text {
+  margin-left: 30px;
+  position: relative;
+  top: 20rem;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  font-size: 20px;
+  margin-top: -17px;
+  background-image: url("../weebly export/assets/images//contactUs.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutUS_text sup {
+  color: dodgerblue;
+  vertical-align: super;
+  font-size: 0.9rem;
+}
+
+.top_footer {
+  padding-top: 100px;
+  color: aliceblue;
+}
