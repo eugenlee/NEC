@@ -8,7 +8,7 @@ Front End:
 - Javascript
 - Figma
 
-Back End (If necessary):
+Back End (if necessary):
 - ORM: SQLAlchemy
 - Database: PostgreSQL
 - Server Language: Python3
