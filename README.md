@@ -17,15 +17,26 @@ Back End (if necessary):
 
 The Sprints will be allocated as such:
 ### Sprint 1 (June 29, 2020 - July 13, 2020)
-- Recreate front-end of existing website.
+- Recreate front-end of existing website using HTML/CSS.
 
 ### Sprint 2 (July 13, 2020 - July 27, 2020)
-- Redesign front-end of existing website using [Figma](https://www.figma.com/).
+- Recreate a single-page social site for desktop and mobile on [Figma](https://www.figma.com/).
+- Draw by hand 3 iterations of assigned web page.
 
-### Sprints 3 & 4 (July 27, 2020 - August 10, 2020 && August 10, 2020 - August 24, 2020)
-- Add back-end capabilities of newly designed website.
-- Add templates, newsletter subscription, payment system and messenger bot features.
-- Present to stakeholder & deploy.
+### Sprints 3 (July 27, 2020 - August 10, 2020)
+Front-end:
+- Finalize Design System
+- Wireframe your page on [Figma](https://www.figma.com/).
+Back-end:
+- Deploy single-page website with messenger bot platform.
+
+
+### 4 (August 10, 2020 - August 24, 2020)
+Front-end:
+- Create a presentation on your creative process and final design; present to leads.
+Back-end:
+- Add further back-end functionalities: templates and forms.
+- Deploy.
 
 ## Resources (please request for access!)
 ### [Team Drive](https://drive.google.com/drive/u/1/folders/1vo78c3xbBaYXENOm6er0k661SNO-23CF)
