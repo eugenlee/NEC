@@ -27,6 +27,7 @@ The Sprints will be allocated as such:
 ### Sprints 3 (July 27, 2020 - August 10, 2020)
 Front-end:
 - Finalize Design System
+- [Content Layout/Format](https://docs.google.com/document/d/1v0m3Pu482NBDLCp9osv9wmerdSjg8CbpvbNOzSLBQYE/edit)
 - Wireframe your page on [Figma](https://www.figma.com/).
 
 Back-end:
