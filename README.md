@@ -24,7 +24,7 @@ The Sprints will be allocated as such:
 - Recreate a single-page website for desktop and mobile on [Figma](https://www.figma.com/).
 - Draw by hand 3 iterations of assigned web page.
 
-### Sprints 3 (July 27, 2020 - August 10, 2020)
+### Sprint 3 (July 27, 2020 - August 10, 2020)
 Front-end:
 - Finalize Design System
 - [Content Layout/Format](https://docs.google.com/document/d/1v0m3Pu482NBDLCp9osv9wmerdSjg8CbpvbNOzSLBQYE/edit)
@@ -34,7 +34,7 @@ Back-end:
 - Deploy single-page website with messenger bot platform.
 
 
-### 4 (August 10, 2020 - August 24, 2020)
+### Sprint 4 (August 10, 2020 - August 24, 2020)
 Front-end:
 - Create a presentation on your creative process and final design; present to leads.
 
