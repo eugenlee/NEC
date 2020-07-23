@@ -7,6 +7,7 @@ Front End:
 - Bootstrap
 - Javascript
 - Figma
+- React
 
 Back End (if necessary):
 - ORM: SQLAlchemy
