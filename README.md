@@ -43,6 +43,6 @@ Back-end:
 - Deploy.
 
 ## Resources (please request for access!)
-### [Team Drive](https://drive.google.com/drive/u/1/folders/1vo78c3xbBaYXENOm6er0k661SNO-23CF)
+### [Team Drive](https://drive.google.com/drive/folders/1FHXKr0KPpqM2WUbAOTgdotBACYbslRVo)
 ### [Trello Board](https://trello.com/b/PfFT9GtU/nec-kanban-board)
 ### [Figma Project](https://www.figma.com/files/team/864573808842048214/NEC)
