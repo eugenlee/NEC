@@ -14,6 +14,7 @@
             <div id="right">
                 <img src="imgs/jason.jpg" alt="Jason Tso MUN Graduation">
             </div>
+            
             <div id="left">
                 <h1 id=jason>Jason Tsao</h1>
                 
@@ -26,15 +27,39 @@
                     <br>
                     Today, my passions include traveling (obviously), writing this blog (also a given), swimming endless laps at the pool, photographing nature and people, watching TV shows, and reading on the beach. You may see me trying to find new restaurants or earning some money here and there to fuel my travel addiction!
                 </p>
-                
+
                 <div id="icons">
                     <a class="p" href="https://www.linkedin.com/in/jasontsao58/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a class="p" href="https://www.instagram.com/jasontsao/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a class="p" href="https://www.facebook.com/neverendingcycleorg" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="p" href="ttps://www.neverendingcycle.org/" title="Website" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a class="p" href="https://www.neverendingcycle.org/" title="Website" target="_blank"><i class="fas fa-globe"></i></a>
                 </div>
             </div>
+            
+            <!-- Load Facebook SDK for JavaScript -->
+            <div id="fb-root"></div>
+            <script>
+                window.fbAsyncInit = function() {
+                FB.init({
+                    xfbml            : true,
+                    version          : 'v7.0'
+                });
+            };
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <!-- Your Chat Plugin code -->
+            <div class="fb-customerchat"
+                attribution=setup_tool
+                page_id="104965274628015">
+            </div>
+            
         </div>
-        
     </body>
 </html>
