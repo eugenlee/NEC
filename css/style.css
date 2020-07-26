@@ -81,5 +81,9 @@
     width: 229px;
     height: 40px;
     left: 0px;
-    top: 730px;
+    top: 830px;
+}
+
+.p {
+    padding-right: 2.0em;
 }
