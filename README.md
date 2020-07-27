@@ -1,4 +1,7 @@
 # NEC Website Redesign Effort
+
+### Check out the current deployed [website](https://nec-two.vercel.app/)! 
+
 Our goal is to recreate and redesign the Never Ending Cycle [website](http://neverendingcycle.org/) from scratch. During the 4x 2-week Sprints from June 29, 2020 to August 21, 2020 our tech stack will be:
 ```
 Front End:
