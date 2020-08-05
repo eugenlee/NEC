@@ -2,20 +2,15 @@
     /* Desktop - 1 */
 
     position: relative;
-    width: 1440px;
-    height: 1024px;
-
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 #left {
     /* Text + Icons */
 
     position: absolute;
-    width: 657px;
-    height: 770px;
-    left: 108px;
+    left: 8%;
     top: 80px;
 }
 
@@ -23,32 +18,27 @@
     /* Image */
 
     position: absolute;
-    width: 512px;
-    height: 770px;
-    left: 819px;
-    top: 127px;
+    right: 8%;
+    top: 110px;
 }
 
 #jason {
     /* Jason Tsao */
 
     position: absolute;
-    width: 657px;
-    height: 92px;
-    left: 0px;
-    top: 0px;
-    
+    width: 700px;
+    height: 100px;
+    padding-top: 30px;
     /* H1 Header */
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
-    line-height: 104px;
+    font-size: 50px;
+    line-height: 80px;
     /* or 108% */
     display: flex;
     align-items: center;
     letter-spacing: -3px;
-
     color: #000000;
     
 }
@@ -58,8 +48,8 @@
 
     position: absolute;
     top: 200px;
-    width: 631px;
-    height: 476px;
+    width: 700px;
+    height: 500px;
     left: 0px;
 
     /* Paragraph Default */
@@ -78,15 +68,22 @@
     /* Icons */
 
     position: absolute;
-    width: 229px;
+    width: 700px;
     height: 40px;
     left: 0px;
-    top: 830px;
+    top: 800px;
 }
 
 .p {
     padding-right: 2.0em;
     color: black;
+}
+
+#footer {
+    clear:both;
+    margin:-22px auto;
+    position:relative;
+    width:726px;
 }
 
 .image:hover {
@@ -104,16 +101,8 @@
 }
 
 .navbar a {
-/*
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-*/
-    padding-left: 9%;
-    
+    padding-left: 7%;
+
   /* MINICAPS */
 
     font-family: Inter;
