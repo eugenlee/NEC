@@ -79,11 +79,8 @@
     color: black;
 }
 
-#footer {
-    clear:both;
-    margin:-22px auto;
-    position:relative;
-    width:726px;
+.footer {
+    top: 500px;
 }
 
 .image:hover {
