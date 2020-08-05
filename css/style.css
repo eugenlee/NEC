@@ -79,13 +79,13 @@
     top: 500px;
 }
 
-.image:hover {
-    opacity: 0.5;
+.image:hover, .text:hover{
+    opacity: 0.;
 }
-
 
 ul{
     float: right;
+    padding-left: 70px;
 }
 
 .navbar {
