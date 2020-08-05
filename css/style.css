@@ -36,14 +36,14 @@
     width: 657px;
     height: 92px;
     left: 0px;
-    top: 20px;
+    top: 30px;
     
     /* H1 Header */
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 80px;
     /* or 108% */
     display: flex;
     align-items: center;
