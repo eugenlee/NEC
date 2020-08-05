@@ -1,0 +1,42 @@
+
+@media only screen and (min-width: 0px) {
+    #desktop {
+        padding-left: 4%;
+    }
+    .jt {
+        width: 0%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #desktop {
+        padding-left: 4%;
+    }
+    .jt {
+        width: 100%;
+    }
+    #right {
+    /* Image */
+
+    position: absolute;
+    right: 50px;
+    }
+    .navbar {
+        padding-left: 200px;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    #desktop {
+        padding-left: 10%;
+    }
+    #right {
+    /* Image */
+
+    position: absolute;
+    right: 130px;
+    }
+    .navbar {
+        padding-left: 400px;
+    }
+}
