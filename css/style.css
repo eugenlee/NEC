@@ -36,14 +36,14 @@
     width: 657px;
     height: 92px;
     left: 0px;
-    top: 0px;
+    top: 20px;
     
     /* H1 Header */
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
-    line-height: 104px;
+    font-size: 50px;
+    line-height: 60px;
     /* or 108% */
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@
   padding: 14px 16px;
   text-decoration: none;
 */
-    padding-left: 9%;
+    padding-left: 7%;
     
   /* MINICAPS */
 
