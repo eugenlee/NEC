@@ -1,7 +1,7 @@
 #travel-title {
     /* Travel Consulting Service */
 
-    position: absolute;
+    position: relative;
     width: 600;
     height: 100px;
 
@@ -19,10 +19,10 @@
 }
 
 #travel-descrip {
-    position: absolute;
+    position: relative;
     width: 867px;
     height: 213px;
-    top: 120px;
+    top: 30px;
 
     /* Paragraph Default */
 
@@ -38,4 +38,8 @@
 
 li {
     padding-left: 30px;
+}
+
+.table-responsive {
+    padding-top: 250px;
 }
