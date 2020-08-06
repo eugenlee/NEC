@@ -6,19 +6,20 @@
         <meta property='og:title' content='Never Ending Cycle'/>
         <meta property='og:description' content='Travels & Guides'/>
         <link rel="icon" href="imgs/travel_favicon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="./css/style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     </head>
 
     <body>
-        <div id="wrapper">
+        <div class="container-fluid">
             <div class="navbar">
-                <a href="https://nec-two.vercel.app/" style = "font-family:georgia,garamond,serif;font-size:16px;font-style:" class="text">Jason Tsao<img src="imgs/travel_favicon.png" width = 40px alt="homepage"></a>
-                <ul><a href="pages/services.html">Services</a></ul>
-                <ul><a href="pages/guides.html">Guides</a></ul>
-                <ul><a href="pages/travels.html">Travels</a></ul>
-                <ul><a href="pages/nec.html">Never Ending Cycle</a></ul>
-
+                <ul><a href="https://nec-two.vercel.app/" style = "font-family:georgia,garamond,serif;font-size:16px;font-style:" class="text">Jason Tsao<img src="../imgs/travel_favicon.png" width = 40px alt="homepage"></a></ul>
+                <ul><a href="../pages/nec.html">Never Ending Cycle</a></ul>
+                <ul><a href="../pages/travels.html">Travels</a></ul>
+                <ul><a href="../pages/guides.html">Guides</a></ul>
+                <ul><a href="../pages/services.html">Services</a></ul>    
+            </div>
 <!--
                 <div class="dropdown">
                     <button class="dropbtn">Dropdown 
@@ -31,32 +32,37 @@
                     </div>
                 </div> 
 -->
-            </div>
-            <div id="right">
-                <img src="imgs/jason_small.jpg" alt="Jason Tsao MUN Graduation" class="jt">
+            <div id="wrapper">
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <h1 id=jason_title>Hello readers! I'm Jason.</h1>
+
+                        <p id="main_text">
+                            I was born and raised in SoCal and graduated from the University of California, Santa Barbara, with a B.A. double major in Economics/Mathematics & Statistics. I currently work for Accenture in San Francisco under their technology consulting practice. I'm new to the Bay Area, so I welcome any recommendations!
+                            <br>
+                            <br>
+                            When I was little, my interests included playing with toy cars, being an expert in Mario Kart, an avid Pokemon game player, and reading lots and lots of books. Some of that hasn't changed in the present day!
+                            <br>
+                            <br>
+                            Today, my passions include traveling (obviously), writing this blog (also a given), swimming endless laps at the pool, photographing nature and people, watching TV shows, and reading on the beach. You may see me trying to find new restaurants or earning some money here and there to fuel my travel addiction!
+                        </p>
+
+                        <div id="icons">
+                            <a class="p" href="https://www.linkedin.com/company/neverendingcycle/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="p" href="https://www.instagram.com/_neverendingcycle/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="p" href="https://www.facebook.com/neverendingcycleorg" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="p" href="https://www.neverendingcycle.org/" title="Website" target="_blank"><i class="fas fa-globe"></i></a>
+                        </div> 
+                    </div>
+
+                    <div class="col-sm-6">
+                        <img src="imgs/jason_small.jpg" alt="Jason Tsao MUN Graduation" class="jt">
+                    </div>
+
+                </div>
             </div>
             
-            <div id="left">
-                <h1 id=jason_title>Hello readers! I'm Jason.</h1>
-                
-                <p id="main_text">
-                    I was born and raised in SoCal and graduated from the University of California, Santa Barbara, with a B.A. double major in Economics/Mathematics & Statistics. I currently work for Accenture in San Francisco under their technology consulting practice. I'm new to the Bay Area, so I welcome any recommendations!
-                    <br>
-                    <br>
-                    When I was little, my interests included playing with toy cars, being an expert in Mario Kart, an avid Pokemon game player, and reading lots and lots of books. Some of that hasn't changed in the present day!
-                    <br>
-                    <br>
-                    Today, my passions include traveling (obviously), writing this blog (also a given), swimming endless laps at the pool, photographing nature and people, watching TV shows, and reading on the beach. You may see me trying to find new restaurants or earning some money here and there to fuel my travel addiction!
-                </p>
-
-                <div id="icons">
-                    <a class="p" href="https://www.linkedin.com/company/neverendingcycle/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="p" href="https://www.instagram.com/_neverendingcycle/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a class="p" href="https://www.facebook.com/neverendingcycleorg" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="p" href="https://www.neverendingcycle.org/" title="Website" target="_blank"><i class="fas fa-globe"></i></a>
-                </div> 
-            </div>
-
             <!-- Load Facebook SDK for JavaScript -->
               <div id="fb-root"></div>
               <script>
