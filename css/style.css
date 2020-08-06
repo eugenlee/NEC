@@ -74,7 +74,7 @@ ul {
 }
 
 .text{
-    margin-right: 250px;
+    margin-right: 240px;
 }
 
 .navbar {
@@ -84,6 +84,7 @@ ul {
     height: 100px; 
     width: 1200px;
     margin: auto;
+    padding-right: 49px
 }
 
 .navbar a {
