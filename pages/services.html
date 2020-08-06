@@ -99,29 +99,38 @@
                     <span class="jumbotron">Questionnaire/Interest Form</span>
                 </div>
                 
+                <div id="questions?">
                     <h1 id="q">Questions?</h1>
                     <p id="qform">Use the form below, and I will get back to you at the email you provide below</p>
-
+                </div>
+                
+                <div id="form-wrapper">
+                    <p id="req">* Required Field</p>
                 <form>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-6">
-                                <label for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                <label for="firstName">First Name*</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
                             </div>
                             <div class="col-sm-6">
-                                <label for="lastName">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                <label for="lastName">Last Name*</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="exampleInputEmail1">Email address*</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="questions">Question</label>
+                        <input type="text" class="form-control" id="questions" aria-describedby="emailHelp" placeholder="Enter Question">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                </div>
                 
             </div>
             

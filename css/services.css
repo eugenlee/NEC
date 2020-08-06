@@ -15,7 +15,6 @@
     /* identical to box height, or 108% */
     display: flex;
     align-items: center;    
-    color: #000000;
 }
 
 #travel-descrip {
@@ -33,7 +32,6 @@
     line-height: 32px;
     /* or 178% */
 
-    color: #000000;
 }
 
 li {
@@ -41,7 +39,7 @@ li {
 }
 
 .table-responsive {
-    padding-top: 250px;
+    padding-top: 220px;
     padding-bottom: 40px;
 }
 
@@ -56,9 +54,30 @@ table th, td {
 
 #q {
     margin-top: 40px;
-}
+
+    /* H3 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+    }
 
 #qform {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+#firstName, #lastName, #exampleInputEmail1, #questions {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+#form-wrapper {
+    margin-left: 200px;
+    margin-right: 200px;
 }
