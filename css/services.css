@@ -1,0 +1,38 @@
+#travel-title {
+    /* Travel Consulting Service */
+
+    position: absolute;
+    width: 600;
+    height: 100px;
+
+    /* H1 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 108% */
+    display: flex;
+    align-items: center;    
+    color: #000000;
+}
+
+#travel-descrip {
+    position: absolute;
+    width: 867px;
+    height: 213px;
+    top: 120px;
+
+    /* Paragraph Default */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    color: #000000;
+}
+

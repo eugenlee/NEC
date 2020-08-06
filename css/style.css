@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+body {
+    padding-bottom: 50px;
+}
+
 #jason_title {
     /* Jason Tsao */
 
