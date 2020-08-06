@@ -56,8 +56,12 @@ body {
     top: 720px;
 }
 
+ul {
+    align-content: right;
+}
+
 .jt{
-    padding-left: 135px;
+    padding-left: 110px;
 }
 
 .p {
@@ -71,13 +75,13 @@ body {
 
 .text{
     margin-right: 250px;
+    margin-left: 20px;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #fff;
   padding-top: 30px;
-  margin: 0 auto;
   height: 100px; 
   width: 1200px;
 }
