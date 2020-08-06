@@ -39,12 +39,19 @@ li {
 }
 
 .table-responsive {
-    padding-top: 220px;
-    padding-bottom: 40px;
+    margin-top: 220px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-table th, td {
+table td {
    text-align: center; 
+}
+
+#disclaimer {
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .jumbotron {
