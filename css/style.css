@@ -65,8 +65,12 @@ ul {
 }
 
 .p {
-    padding-right: 2.0em;
+    margin-right: 2.0em;
     color: black;
+}
+
+.fab:hover, .fas:hover {
+    color: darkcyan;
 }
 
 .text:hover{
