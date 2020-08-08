@@ -82,8 +82,12 @@ table td {
     background: #FFFFFF;
     border: 2px solid #000000;
     box-sizing: border-box;
-    border-color: darkcyan;
 }
+
+.form-control:focus {
+        border-color: black;
+        box-shadow: 0 0 0 0.2rem darkcyan;
+    } 
 
 #form-wrapper {
     margin-left: 200px;
