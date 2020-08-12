@@ -1,3 +1,10 @@
+#wrap {
+    position: relative;
+    background: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+}
+
 #banner {
     display: flex;
     justify-content: center;
