@@ -5,7 +5,7 @@
     overflow: hidden;
     height: 431px;
     margin-top: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 h1 { 
@@ -32,6 +32,8 @@ h1 {
     height: 171px;
     padding-left: 151px;
     padding-right: 151px;
+    padding-bottom: 51px;
+    padding-bottom: 180px;
 
     /* Paragraph Big */
 
@@ -53,6 +55,7 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .first-text {
@@ -63,7 +66,7 @@ h1 {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     /* or 150% */
 
@@ -94,12 +97,18 @@ h1 {
     color: #2D3436;
 }
 
-.pr-6,
-.px-6 {
-  padding-right: 8rem !important;
+#space {
+    padding-bottom: 100px;
 }
 
-.pl-6,
-.px-6 {
-  padding-left: 8rem !important;
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: darkcyan;
 }
