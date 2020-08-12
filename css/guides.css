@@ -1,0 +1,105 @@
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 431px;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+
+h1 { 
+    position: absolute; 
+    top: 250px; 
+    left: 0; 
+    width: 100%; 
+
+    /* H1 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 104px;
+    /* or 108% */
+    color: #FFFFFF;
+}
+
+#mainParagraph {
+    /* 24 sp • Paragraph Big */
+
+    position: relative;
+    height: 171px;
+    padding-left: 151px;
+    padding-right: 151px;
+
+    /* Paragraph Big */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #2D3436;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.first-text {
+    /* 24 sp • Paragraph Big */
+
+    /* Paragraph Big */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Black */
+
+    color: #2D3436;
+}
+
+.second-text {
+    /* H4 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black */
+
+    color: #2D3436;
+}
+
+.pr-6,
+.px-6 {
+  padding-right: 8rem !important;
+}
+
+.pl-6,
+.px-6 {
+  padding-left: 8rem !important;
+}
