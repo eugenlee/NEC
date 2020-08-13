@@ -8,6 +8,8 @@
         <link rel="icon" href="../imgs/travel_favicon.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="../css/style.css" rel="stylesheet" type="text/css">
+        <link href="../css/guides.css" rel="stylesheet" type="text/css">
+        <link href="../css/travels.css" rel="stylesheet" type="text/css">
     </head>
     
      <body>
@@ -20,7 +22,83 @@
                 <ul><a href="../pages/services.html">Services</a></ul>
             </div>                 
             
+            <div class="row">
+                <span class="col-sm-12" id="banner"><img src="../imgs/jbone.jpg" alt="travels-banner"></span>
+                <h1>Travels</h1>
+            </div>
 
+            <div id="wrap">
+                <div class="row">
+                    <span class="col-sm-12">
+                        I have had the great opportunity to solo travel to a wide variety of locations around the globe. Self-funding my trips is an arduous yet rewarding experience because I get to be truly independent when I go abroad. I fully believe that solo traveling has many, many rewards that you can't get from traveling with family or friends. <br><br>
+
+                        I've spent quite a bit of money traveling but I don't regret it one bit. I am very, very lucky because none of this would have been possible if I didn't start saving since high school, and the fact that I got my tuition and books covered for most of my years at university. But most importantly, I also thank my family & friends for their help. If a specific city does not redirect to a new page, that means a guide hasn't been written for it yet - thank you for your patience!
+                    </span>
+                </div>
+
+                <div id="map"></div>
+                <script>
+                    let map;
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById("map"), {
+                        center: { lat: -34.397, lng: 150.644 },
+                        zoom: 8
+                        });
+                    }
+                </script>
+                
+                <div class="row">
+                   <span class="col-sm-12" id="continents">The Americas</span>
+                </div>
+                
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Europe</span>
+                </div>
+                
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Asia/Oceana</span>
+                </div>
+                
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+                <div class="row">
+                   <span class="col-sm-12" id="continents">Africa/Middle East</span>
+                </div>
+                
+                <div class="row">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                        <img class="col-sm-3" src="../imgs/square.png" alt="square">
+                </div>
+
+            </div>
+            
+            <!-- Load Google Maps API for JavaScript -->
+            <script 
+                  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJZNs_WgnYghLEpCN7FBdHrBsgEF3-vlI&callback=initMap" defer
+                  type="text/javascript">
+            </script>
             
             <!-- Load Facebook SDK for JavaScript -->
               <div id="fb-root"></div>

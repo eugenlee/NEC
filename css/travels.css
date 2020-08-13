@@ -1,0 +1,19 @@
+#continents {
+    /* The Americas */
+
+    /* H3 Header */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom:-20px;
+}
+
+#map {
+    height: 100%;
+}
