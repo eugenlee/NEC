@@ -1,7 +1,6 @@
 @media only screen and (min-width: 992px) {
     .p {
         margin-top: 28%;
-        margin-bottom: 10%
     }
     
     #form-wrapper {
@@ -49,6 +48,7 @@ body {
 
 .p {
     margin-right: 2.0em;
+    margin-bottom: 30px;
     color: black;
     float: left;
 }
