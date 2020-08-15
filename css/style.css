@@ -1,11 +1,24 @@
+@media only screen and (min-width: 992px) {
+    .p {
+        margin-top: 28%;
+    }
+    
+    #form-wrapper {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    .table-responsive {
+        margin: 40px 200px 40px 200px;
+    }
+}
+
 body {
     padding-bottom: 50px;
 }
 
 #jason_title {
     /* Jason Tsao */
-    height: 100px;
-
     /* H1 Header */
     font-family: Inter;
     font-style: normal;
@@ -21,7 +34,6 @@ body {
 
 #main_text{ 
     /* Main Body */
-    height: 550px;
 
     /* Paragraph Default */
 
@@ -34,14 +46,10 @@ body {
     color: #000000;
 }
 
-#icons {
-    /* Icons */
-    height: 40px;
-}
-
 .p {
     margin-right: 2.0em;
     color: black;
+    float: left;
 }
 
 .fab:hover, .fas:hover {
