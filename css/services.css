@@ -2,7 +2,6 @@
     /* Travel Consulting Service */
 
     position: relative;
-    width: 600;
     height: 100px;
 
     /* H1 Header */
@@ -10,7 +9,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 56px;
     line-height: 80px;
     /* identical to box height, or 108% */
     display: flex;
@@ -19,9 +18,8 @@
 
 #travel-descrip {
     position: relative;
-    width: 867px;
     height: 213px;
-    top: 30px;
+    top: 20px;
 
     /* Paragraph Default */
 
@@ -35,14 +33,11 @@
 }
 
 li {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .table-responsive {
-    margin-top: 220px;
-    margin-bottom: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 180px 200px 40px 200px;
 }
 
 table td {

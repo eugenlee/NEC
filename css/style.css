@@ -1,21 +1,10 @@
-#wrapper {
-/*     Desktop - 1 */
-    position: relative;
-    background: #FFFFFF;
-    width: 1100px;
-    margin: auto;
-}
-
 body {
     padding-bottom: 50px;
 }
 
 #jason_title {
     /* Jason Tsao */
-
-    width: 600px;
     height: 100px;
-    padding-top: 0px;
 
     /* H1 Header */
     font-family: Inter;
@@ -32,10 +21,7 @@ body {
 
 #main_text{ 
     /* Main Body */
-
-    top: 120px;
-    width: 600px;
-    height: 500px;
+    height: 550px;
 
     /* Paragraph Default */
 
@@ -50,18 +36,7 @@ body {
 
 #icons {
     /* Icons */
-
-    width: 600px;
     height: 40px;
-    top: 720px;
-}
-
-ul {
-    align-content: right;
-}
-
-.jt{
-    padding-left: 105px;
 }
 
 .p {
@@ -78,7 +53,11 @@ ul {
 }
 
 .text{
-    margin-right: 240px;
+    margin-right: 250px;
+}
+
+ul {
+    padding: 0px;
 }
 
 .navbar {
@@ -86,9 +65,7 @@ ul {
     background-color: #fff;
     padding-top: 30px;
     height: 100px; 
-    width: 1200px;
-    margin: auto;
-    padding-right: 49px
+    margin-bottom: 20px;
 }
 
 .navbar a {
@@ -101,7 +78,6 @@ ul {
     line-height: 15px;
     /* identical to box height */
     text-decoration: none;
-    text-align: center;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: #000000;
