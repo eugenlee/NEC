@@ -29,7 +29,7 @@ body {
     font-weight: 800;
     font-size: 36px;
     /* or 108% */
-    display: flex;
+    display: grid;
     align-items: center;
     color: #000000;
 
