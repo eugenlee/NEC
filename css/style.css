@@ -2,12 +2,12 @@
     .p {
         margin-top: 28%;
     }
-    
+
     #form-wrapper {
         margin-left: 200px;
         margin-right: 200px;
     }
-    
+
     .table-responsive {
         margin: 40px 200px 40px 200px;
     }
@@ -29,10 +29,10 @@ body {
     display: flex;
     align-items: center;
     color: #000000;
-    
+
 }
 
-#main_text{ 
+#main_text{
     /* Main Body */
 
     /* Paragraph Default */
@@ -48,7 +48,6 @@ body {
 
 .p {
     margin-right: 2.0em;
-    margin-bottom: 40px;
     color: black;
     float: left;
 }
@@ -77,6 +76,21 @@ body {
     color: #000000;
 }
 
-.navbar-nav .nav-item:hover .nav-link {
+.navbar-nav .nav-item:hover .nav-link{
     color: darkcyan;
+}
+
+hr {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.footer-links a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover {
+  color: darkcyan;
 }
