@@ -1,44 +1,9 @@
-#travel-title {
-    /* Travel Consulting Service */
-
-    height: 100px;
-
-    /* H1 Header */
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    /* identical to box height, or 108% */
-    display: flex;
-    align-items: center;    
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-#travel-descrip {
-    position: relative;
-    display: flex;
-    top: 16px;
-    margin-bottom: 16px;
-
-    /* Paragraph Default */
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 32px;
-    /* or 178% */
-}
-
 ul {
     padding-left: 50px;
 }
 
 .table-responsive {
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 table td {
@@ -48,11 +13,6 @@ table td {
 #disclaimer {
     font-size: 12px;
     font-weight: 300;
-}
-
-.jumbotron {
-    padding: 10px;
-    font-size: 23px;
 }
 
 #q {

@@ -11,20 +11,23 @@
     .table-responsive {
         margin: 40px 200px 40px 200px;
     }
+
+    #jt {
+        width: 85%;
+    }
 }
 
 body {
     padding-bottom: 50px;
 }
 
-#jason_title {
+#title {
     /* Jason Tsao */
     /* H1 Header */
     font-family: Inter;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
-    line-height: 80px;
     /* or 108% */
     display: flex;
     align-items: center;
