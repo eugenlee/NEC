@@ -88,12 +88,41 @@ hr {
   margin-bottom: 100px;
 }
 
+.footer-copyright {
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 2.5px;
+    color: #000000;
+}
+
 .footer-links a {
-    font-style: normal;
     text-decoration: none;
     color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 2.5px;
+    color: #000000;
 }
 
 .footer-links a:hover {
   color: darkcyan;
+}
+
+h5 {
+    /* MINICAPS */
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    color: #000000;
 }

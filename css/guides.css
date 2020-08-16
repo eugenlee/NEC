@@ -29,28 +29,6 @@ h1 {
     padding-left: 0;
 }
 
-#mainParagraph {
-    /* 24 sp • Paragraph Big */
-
-    position: relative;
-    margin: 0px 10px 25px 10px;
-
-    /* Paragraph Big */
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    /* or 150% */
-
-    text-align: center;
-
-    /* Black */
-
-    color: #2D3436;
-}
-
 .first-text {
     /* 24 sp • Paragraph Big */
 
