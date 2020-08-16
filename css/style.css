@@ -21,7 +21,7 @@ body {
     padding-bottom: 50px;
 }
 
-#title {
+.title {
     /* Jason Tsao */
     /* H1 Header */
     font-family: Inter;
@@ -35,7 +35,7 @@ body {
 
 }
 
-#main_text{
+.main_text{
     /* Main Body */
 
     /* Paragraph Default */
