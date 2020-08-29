@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import canyon_banner from "../../assets/guides/canyon_banner.jpg";
-import united from "../../assets/guides/united.jpg";
-import qatar from "../../assets/guides/qatar.jpg";
-import driving from "../../assets/guides/driving.jpg";
+import canyon_banner from "../../assets/guides/banner.jpg";
+import united from "../../assets/guides/united.jpeg";
+import qatar from "../../assets/guides/qatar.jpeg";
+import driving from "../../assets/guides/driving.jpeg";
 import packing from "../../assets/guides/packing.jpg";
 import disneyland from "../../assets/guides/disneyland.jpg";
-import planning from "../../assets/guides/planning.jpg";
+import planning from "../../assets/guides/traveling.jpeg";
 
 class Guides extends Component {
     render () {
