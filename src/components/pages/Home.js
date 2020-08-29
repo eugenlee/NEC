@@ -1,8 +1,8 @@
 import React from 'react';
-import home_banner from "../../assets/home_banner.jpg"
-import home_one from "../../assets/home_one.jpg"
-import home_two from "../../assets/home_two.jpg"
-import home_three from "../../assets/home_three.jpg"
+import home_banner from "../../assets/home/home_banner.jpg"
+import home_one from "../../assets/home/home_one.jpg"
+import home_two from "../../assets/home/home_two.jpg"
+import home_three from "../../assets/home/home_three.jpg"
 
 function Home() {
     return (

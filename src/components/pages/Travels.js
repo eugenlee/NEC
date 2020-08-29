@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import jason_bridge from "../../assets/IMG_0026.jpg";
-import square from "../../assets/square.png";
+import jason_bridge from "../../assets/travels/IMG_0026.jpg";
+import square from "../../assets/travels/square.png";
 
 class Travels extends Component {
     render () {
