@@ -13,10 +13,7 @@ Front End:
 - React
 
 Back End (if necessary):
-- ORM: SQLAlchemy
-- Database: PostgreSQL
-- Server Language: Python3
-- Server Framework: Flask
+- MERN Stack
 ```
 
 The Sprints will be allocated as such:
