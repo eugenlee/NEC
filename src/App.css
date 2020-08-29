@@ -1,0 +1,268 @@
+/* <--------------------- HOME CSS ---------------------> */
+@media only screen and (min-width: 992px) {
+  #form-wrapper {
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+
+  .table-responsive {
+      margin: 40px 200px 40px 200px;
+  }
+
+  #jt {
+      width: 85% !important;
+  }
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.title {
+  /* Jason Tsao */
+  /* H1 Header */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px !important;
+  /* or 108% */
+  display: grid;
+  align-items: center;
+  color: #000000;
+
+}
+
+.main_text{
+  /* Main Body */
+
+  /* Paragraph Default */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 178% */
+  color: #000000;
+}
+
+.p {
+  margin-right: 2.0em;
+  color: black;
+  float: left;
+}
+
+.fab:hover, .fas:hover {
+  color: darkcyan;
+}
+
+.navigator {
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.navigator a {
+  /* MINICAPS */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-decoration: none!important;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#basic-navbar-nav .nav-item:hover {
+  color: darkcyan;
+}
+
+#logo:hover {
+  opacity: 0.8;
+}
+
+hr {
+  margin-top: 100px!important;
+  margin-bottom: 100px!important;
+}
+
+.footer-copyright {
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 2.5px;
+  color: #000000;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 2.5px;
+  color: #000000;
+}
+
+.footer-links a:hover {
+color: darkcyan;
+}
+
+h5 {
+  /* MINICAPS */
+  font-family: Inter;
+  font-weight: 800!important;
+  font-size: 12px!important;
+  line-height: 15px!important;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  color: #000000;
+}
+
+/* <--------------------- GUIDES CSS ---------------------> */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 431px;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  top: 250px;
+  width: 100%!important;
+
+  /* H1 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 84px !important;
+  line-height: 104px;
+  /* or 108% */
+  color: #FFFFFF;
+}
+
+.first-text {
+  /* 24 sp • Paragraph Big */
+
+  /* Paragraph Big */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 150% */
+
+  display: grid;
+  align-items: center;
+  text-align: center;
+  /* Black */
+
+  color: #2D3436;
+}
+
+.second-text {
+  /* H4 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  /* or 150% */
+
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  /* Black */
+
+  color: #2D3436;
+}
+
+a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+  font-style: normal;
+  text-decoration: none;
+  color: darkcyan;
+}
+
+/* <--------------------- TRAVELS CSS ---------------------> */
+
+#continents {
+  /* H3 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* <--------------------- SERVICES CSS ---------------------> */
+ul {
+  padding-left: 50px;
+}
+
+.table-responsive {
+  margin-top: 40px;
+}
+
+table td {
+ text-align: center; 
+}
+
+#disclaimer {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#q {
+  margin-top: 40px;
+
+  /* H3 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px !important;
+  line-height: 56px;
+  /* or 117% */
+}
+
+#qform {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#firstName, #lastName, #exampleInputEmail1, #questions {
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+      border-color: black!important;
+      box-shadow: 0 0 0 0.2rem darkcyan!important;
+} 

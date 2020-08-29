@@ -12,8 +12,11 @@ Front End:
 - Figma
 - React
 
-Back End:
-- MERN Stack
+Back End (if necessary):
+- ORM: SQLAlchemy
+- Database: PostgreSQL
+- Server Language: Python3
+- Server Framework: Flask
 ```
 
 The Sprints will be allocated as such:
