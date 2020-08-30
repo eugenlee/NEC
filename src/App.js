@@ -9,12 +9,14 @@ import About from './components/pages/About';
 import Travels from './components/pages/Travels';
 import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
+import ScrollToTop from './components/ScrollToTop';
 
 
 class App extends Component {
   render () {
     return(
       <Router>
+        <ScrollToTop />
         <div className="App">
 
           <div className="container">
