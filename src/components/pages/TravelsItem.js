@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class TravelsItem extends Component {
     render() {
         return (
-            this.props.continents.map((continent) => (
+            this.props.travels.map((continent) => (
                 <div>
                     <div className="row">
                     <span className="col-sm-12" id="continents">{ continent.continent }</span>
@@ -23,7 +23,7 @@ class TravelsItem extends Component {
 }
 
 TravelsItem.propTypes = {
-    continents: PropTypes.object.isRequired
+    travels: PropTypes.object.isRequired
 }
 
 export default TravelsItem;

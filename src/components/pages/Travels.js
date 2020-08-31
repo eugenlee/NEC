@@ -5,7 +5,7 @@ import TravelsItem from './TravelsItem';
 
 class Travels extends Component {
     state = {
-        continents: [
+        travels: [
             {
                 id: 1,
                 continent: 'Asia/Oceania',
@@ -50,7 +50,7 @@ class Travels extends Component {
 
                 <iframe src="https://www.google.com/maps/d/embed?mid=1HBFnFKX9wrbJrQADXUo3SFMQZcUKO4kH" style={{ width: "100%", height:"600px" }} title="my travels"></iframe>
 
-                <TravelsItem continents={this.state.continents}/>
+                <TravelsItem travels={this.state.travels}/>
 
             </div>
 
