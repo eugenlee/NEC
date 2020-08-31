@@ -11,10 +11,10 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-            <Nav.Link className="nav-item active ml-lg-5"><Link className="nav-item active ml-lg- !important" to="/about">About</Link></Nav.Link>
-            <Nav.Link className="nav-item active ml-lg-5"><Link className="nav-item active ml-lg- !important" to="/travels">Travels</Link></Nav.Link>
-            <Nav.Link className="nav-item active ml-lg-5"><Link className="nav-item active ml-lg- !important" to="/guides">Guides</Link></Nav.Link>
-            <Nav.Link className="nav-item active ml-lg-5"><Link className="nav-item active ml-lg- !important" to="/services">Services</Link></Nav.Link>
+            <Link className="nav-item active ml-lg-5 !important" to="/about">About</Link>
+            <Link className="nav-item active ml-lg-5 !important" to="/travels">Travels</Link>
+            <Link className="nav-item active ml-lg-5 !important" to="/guides">Guides</Link>
+            <Link className="nav-item active ml-lg-5 !important" to="/services">Services</Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>
