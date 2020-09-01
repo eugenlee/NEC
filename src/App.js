@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { ProtectedRoute } from "./components/protected.route.js";
-import './styling/App.css';
+import './components/styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
 import Footer from './components/layouts/Footer'

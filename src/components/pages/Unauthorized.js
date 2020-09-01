@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../styling/Unauthorized.scss';
+import '../styling/Unauthorized.scss';
 
 const Unauthorized = () => {
   return (
-    <div className='container'>
+    <div className='mayo'>
       <div className="gandalf">
         <div className="fireball"></div>
         <div className="skirt"></div>
