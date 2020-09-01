@@ -9,7 +9,7 @@ function Home() {
         <div>
          <div className="container-fluid">
             <div className="row">
-                <span className="banner"><img src={home_banner} className="mx-auto d-block" style={{width: "100%"}} alt="home-banner"></img></span>
+                <span className="col-lg-12" style={{ display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", height: "431px", marginTop: "16px", marginBottom: "25px", padding: "0px" }}><img src={home_banner} className="mx-auto d-block" style={{width: "100%"}} alt="home-banner"></img></span>
                 <h1 style={{textAlign: "center", position: "absolute" }}>Welcome</h1>
             </div>
          </div>
