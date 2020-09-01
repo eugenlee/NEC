@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class TravelsItem extends Component {
-    getContinents(continent)  { 
+    getContinents(continent)  {
         return this.props.travels.map((travel) => (
             travel.continent === continent ?
             <div className="col-sm-3 mb-4" key={ travel.id }>
                 <a href={ travel.link } target="_blank" rel="noopener noreferrer"><img src={ travel.image } style={{ height:"240px", width:"100%" }} alt={ travel.city }></img></a>
                 <span id="cities">{ travel.city }</span>
-                {/* <span id="countries">{ travel.country }</span> */}
+                <span id="countries">{ travel.country }</span>
             </div>
             : ''
         ))

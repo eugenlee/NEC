@@ -230,6 +230,7 @@ a:hover {
 
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 #countries {
@@ -242,6 +243,7 @@ a:hover {
 
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 /* <--------------------- SERVICES CSS ---------------------> */
@@ -254,7 +256,7 @@ ul {
 }
 
 table td {
- text-align: center; 
+ text-align: center;
 }
 
 #disclaimer {
@@ -289,4 +291,4 @@ table td {
 .form-control:focus {
       border-color: black!important;
       box-shadow: 0 0 0 0.2rem darkcyan!important;
-} 
+}
