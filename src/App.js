@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
+import { ProtectedRoute } from "./components/protected.route.js";
+import './styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
 import Footer from './components/layouts/Footer'
@@ -10,6 +11,9 @@ import Travels from './components/pages/Travels';
 import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
 import ScrollToTop from './components/ScrollToTop';
+import Jason from './components/pages/JasonLogin';
+import Guide_Form from './components/pages/GuideForm.js';
+import Unauthorized from './components/pages/Unauthorized.js';
 
 
 class App extends Component {
@@ -27,6 +31,9 @@ class App extends Component {
             <Route path="/travels" component={Travels}></Route>
             <Route path="/guides" component={Guides}></Route>
             <Route path="/services" component={Services}></Route>
+            <Route path="/jason-login" component={Jason}></Route>
+            <Route path="/unauthorized" component={Unauthorized}></Route>
+            <ProtectedRoute path="/guide-form" component={Guide_Form}></ProtectedRoute>
           <div className="container">
             <hr ></hr>
             <Footer />
