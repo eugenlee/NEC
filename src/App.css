@@ -130,7 +130,7 @@ h5 {
 
 /* <--------------------- GUIDES CSS ---------------------> */
 .banner {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
