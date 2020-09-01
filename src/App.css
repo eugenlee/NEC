@@ -220,6 +220,30 @@ a:hover {
   margin-top: 20px;
 }
 
+#cities {
+  /* H3 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+#countries {
+  /* H3 Header */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
 /* <--------------------- SERVICES CSS ---------------------> */
 ul {
   padding-left: 50px;
