@@ -27,11 +27,9 @@ function Services() {
             </div>
         </div>
 
-        <div className="row">
 
-            <img className="col-sm-12" src={services_table} alt="services_table" style={{ width:"100%", padding: "5%"}}></img>
+            <img src={services_table} alt="services_table" style={{ width:"100%", padding: "5%"}}></img>
 
-        </div>
 
         <div id="questions?">
             <h1 id="q" style={{ color: "black" }}>Questions?</h1>
