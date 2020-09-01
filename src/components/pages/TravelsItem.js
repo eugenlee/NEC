@@ -2,28 +2,46 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class TravelsItem extends Component {
+    getContinents(continent)  { 
+        return this.props.travels.map((travel) => (
+            travel.continent === continent ?
+            <div className="col-sm-3 mb-4" key={ travel.id }>
+                <a href={ travel.link } target="_blank"><img src={ travel.image } style={{ height:"240px", width:"100%" }} alt={ travel.city }></img></a>
+                <span>{ travel.city }</span>
+            </div>
+            : ''
+        ))
+    }
+
     render() {
         return (
-            this.props.travels.map((continent) => (
-                <div>
-                    <div className="row">
-                    <span className="col-sm-12" id="continents">{ continent.continent }</span>
-                    </div>
+            <div>
+                <span id="continents"> Asia/Oceania </span>
+                <span className="row">
+                    { this.getContinents('Asia/Oceania') }
+                </span>
 
-                    <div className="row">
-                        <img className="col-sm-3" src={ continent.image } alt="square"></img>
-                        <img className="col-sm-3" src={ continent.image } alt="square"></img>
-                        <img className="col-sm-3" src={ continent.image } alt="square"></img>
-                        <img className="col-sm-3" src={ continent.image } alt="square"></img>
-                    </div>
-                </div>
-            ))
+                <span id="continents"> The Americas </span>
+                <span className="row">
+                    { this.getContinents('The Americas') }
+                </span>
+
+                <span id="continents"> Europe </span>
+                <span className="row">
+                    { this.getContinents('Europe') }
+                </span>
+
+                <span id="continents"> Africa/Middle East </span>
+                <span className="row">
+                    { this.getContinents('Africa/Middle East') }
+                </span>
+            </div>
         );
     }
 }
 
 TravelsItem.propTypes = {
-    travels: PropTypes.object.isRequired
+    travels: PropTypes.array.isRequired
 }
 
 export default TravelsItem;
