@@ -66,7 +66,7 @@ class Travels extends Component {
                 continent: 'Asia/Oceania',
                 image: hongkong,
                 city: 'Hong Kong',
-                country: 'China',
+                country: 'Chinese special administrative region',
                 link: '#'
             },
             {
@@ -106,7 +106,7 @@ class Travels extends Component {
                 continent: 'Asia/Oceania',
                 image: yilan,
                 city: 'Yilan',
-                country: 'China',
+                country: 'Taiwan',
                 link: 'https://www.neverendingcycle.org/yilan.html'
             },
             {
@@ -194,7 +194,7 @@ class Travels extends Component {
                 continent: 'The Americas',
                 image: toronto,
                 city: 'Toronto',
-                country: 'United States',
+                country: 'Canada',
                 link: '#'
             },
             {
