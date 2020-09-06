@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import auth from '../auth.js';
 
-class GuideForm extends Component {
+class GuidesForm extends Component {
     render() {
         return (
             <div style={{ textAlign: "center" }}>
@@ -15,4 +15,4 @@ class GuideForm extends Component {
     }
 }
 
-export default GuideForm;
+export default GuidesForm;

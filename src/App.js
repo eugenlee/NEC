@@ -12,7 +12,7 @@ import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
 import ScrollToTop from './components/ScrollToTop';
 import Jason from './components/pages/JasonLogin';
-import Guide_Form from './components/pages/GuideForm.js';
+import GuidesForm from './components/pages/GuidesForm.js';
 import Unauthorized from './components/pages/Unauthorized.js';
 
 
@@ -33,7 +33,7 @@ class App extends Component {
             <Route path="/services" component={Services}></Route>
             <Route path="/jason-login" component={Jason}></Route>
             <Route path="/unauthorized" component={Unauthorized}></Route>
-            <ProtectedRoute path="/guide-form" component={Guide_Form}></ProtectedRoute>
+            <ProtectedRoute path="/guides-form" component={GuidesForm}></ProtectedRoute>
           <div className="container">
             <hr></hr>
             <Footer />
