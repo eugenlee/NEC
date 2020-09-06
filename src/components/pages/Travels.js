@@ -1,46 +1,5 @@
 import React, { Component } from 'react';
-import jason_bridge from "../../assets/travels/IMG_0026.jpg";
 import TravelsItem from './TravelsItem';
-import tokyo from "../../assets/travels/asia/tokyo.jpeg";
-import guilin from "../../assets/travels/asia/guilin.jpeg";
-import hongkong from "../../assets/travels/asia/hongkong.jpg";
-import puerto from "../../assets/travels/asia/puerto.jpg";
-import singapore from "../../assets/travels/asia/singapore.jpg";
-import sydney from "../../assets/travels/asia/sydney.jpg";
-import shanghai from "../../assets/travels/asia/shanghai.jpg";
-import yilan from "../../assets/travels/asia/yilan.jpg";
-import kuala from "../../assets/travels/asia/kuala.jpg";
-import seoul from "../../assets/travels/asia/seoul.jpg";
-import melbourne from "../../assets/travels/asia/melbourne.jpeg";
-import beijing from "../../assets/travels/asia/beijing.jpg";
-import tainan from "../../assets/travels/asia/tainan.jpeg";
-import hanoi from "../../assets/travels/asia/hanoi.jpeg";
-
-import nyc from "../../assets/travels/americas/nyc.jpeg";
-import chi from "../../assets/travels/americas/chi.jpeg";
-import portland from "../../assets/travels/americas/portland.jpeg";
-import boston from "../../assets/travels/americas/boston.jpeg";
-import toronto from "../../assets/travels/americas/toronto.jpeg";
-import charlotte from "../../assets/travels/americas/charlotte.jpeg";
-import honolulu from "../../assets/travels/americas/honolulu.jpeg";
-import jacksonville from "../../assets/travels/americas/jacksonville.jpeg";
-import vancouver from "../../assets/travels/americas/vancouver.jpeg";
-import minneapolis from "../../assets/travels/americas/minneapolis.jpeg";
-import seattle from "../../assets/travels/americas/seattle.jpeg";
-import dc from "../../assets/travels/americas/dc.jpeg";
-
-import london from "../../assets/travels/europe/london.jpeg";
-import paris from "../../assets/travels/europe/paris.JPG";
-import edinburgh from "../../assets/travels/europe/edinburgh.jpeg";
-import rome from "../../assets/travels/europe/rome.JPG";
-import reykjavik from "../../assets/travels/europe/reykjavik.jpeg";
-import brussels from "../../assets/travels/europe/brussels.jpeg";
-import amsterdam from "../../assets/travels/europe/amsterdam.jpeg";
-import copenhagen from "../../assets/travels/europe/copenhagen.jpeg";
-
-import doha from "../../assets/travels/africa/doha.JPG";
-import capetown from "../../assets/travels/africa/capetown.jpeg";
-import dubai from "../../assets/travels/africa/dubai.jpg";
 
 class Travels extends Component {
     state = {
@@ -48,7 +7,7 @@ class Travels extends Component {
             {
                 id: 1,
                 continent: 'Asia/Oceania',
-                image: tokyo,
+                image: '/assets/travels/asia/tokyo.jpeg',
                 city: 'Tokyo',
                 country: 'Japan',
                 link: 'https://www.neverendingcycle.org/tokyo-osaka.html'
@@ -56,7 +15,7 @@ class Travels extends Component {
             {
                 id: 2,
                 continent: 'Asia/Oceania',
-                image: guilin,
+                image: '/assets/travels/asia/guilin.jpeg',
                 city: 'Guilin',
                 country: 'China',
                 link: 'https://www.neverendingcycle.org/guilin.html'
@@ -64,7 +23,7 @@ class Travels extends Component {
             {
                 id: 3,
                 continent: 'Asia/Oceania',
-                image: hongkong,
+                image: '/assets/travels/asia/hongkong.jpg',
                 city: 'Hong Kong',
                 country: 'Chinese special administrative region',
                 link: '#'
@@ -72,7 +31,7 @@ class Travels extends Component {
             {
                 id: 4,
                 continent: 'Asia/Oceania',
-                image: puerto,
+                image: '/assets/travels/asia/puerto.jpg',
                 city: 'Puerto Princessa',
                 country: 'Philippines',
                 link: 'https://www.neverendingcycle.org/puerto-princesa.html'
@@ -80,7 +39,7 @@ class Travels extends Component {
             {
                 id: 5,
                 continent: 'Asia/Oceania',
-                image: singapore,
+                image: '/assets/travels/asia/singapore.jpg',
                 city: 'Singapore',
                 country: 'Republic of Singapore',
                 link: 'https://www.neverendingcycle.org/singapore.html'
@@ -88,7 +47,7 @@ class Travels extends Component {
             {
                 id: 6,
                 continent: 'Asia/Oceania',
-                image: sydney,
+                image: '/assets/travels/asia/sydney.jpg',
                 city: 'Sydney',
                 country: 'Australia',
                 link: 'https://www.neverendingcycle.org/sydney.html'
@@ -96,7 +55,7 @@ class Travels extends Component {
             {
                 id: 7,
                 continent: 'Asia/Oceania',
-                image: shanghai,
+                image: '/assets/travels/asia/shanghai.jpg',
                 city: 'Shanghai',
                 country: 'China',
                 link: 'https://www.neverendingcycle.org/shanghai.html'
@@ -104,7 +63,7 @@ class Travels extends Component {
             {
                 id: 8,
                 continent: 'Asia/Oceania',
-                image: yilan,
+                image: '/assets/travels/asia/yilan.jpg',
                 city: 'Yilan',
                 country: 'Taiwan',
                 link: 'https://www.neverendingcycle.org/yilan.html'
@@ -112,7 +71,7 @@ class Travels extends Component {
             {
                 id: 9,
                 continent: 'Asia/Oceania',
-                image: kuala,
+                image: '/assets/travels/asia/kuala.jpg',
                 city: 'Kuala Lumpur',
                 country: 'Malaysia',
                 link: 'https://www.neverendingcycle.org/kualalumpur.html'
@@ -120,7 +79,7 @@ class Travels extends Component {
             {
                 id: 10,
                 continent: 'Asia/Oceania',
-                image: seoul,
+                image: '/assets/travels/asia/seoul.jpg',
                 city: 'Seoul',
                 country: 'South Korea',
                 link: 'https://www.neverendingcycle.org/seoul.html'
@@ -128,7 +87,7 @@ class Travels extends Component {
             {
                 id: 11,
                 continent: 'Asia/Oceania',
-                image: melbourne,
+                image: '/assets/travels/asia/melbourne.jpeg',
                 city: 'Melbourne',
                 country: 'Australia',
                 link: 'https://www.neverendingcycle.org/melbourne.html'
@@ -136,7 +95,7 @@ class Travels extends Component {
             {
                 id: 12,
                 continent: 'Asia/Oceania',
-                image: beijing,
+                image: '/assets/travels/asia/beijing.jpg',
                 city: 'Beijing',
                 country: 'China',
                 link: 'https://www.neverendingcycle.org/beijing.html'
@@ -144,7 +103,7 @@ class Travels extends Component {
             {
                 id: 13,
                 continent: 'Asia/Oceania',
-                image: tainan,
+                image: '/assets/travels/asia/tainan.jpeg',
                 city: 'Tainan',
                 country: 'Taiwan',
                 link: 'https://www.neverendingcycle.org/tainan.html'
@@ -152,7 +111,7 @@ class Travels extends Component {
             {
                 id: 14,
                 continent: 'Asia/Oceania',
-                image: hanoi,
+                image: '/assets/travels/asia/hanoi.jpeg',
                 city: 'Hanoi',
                 country: 'Vietnam',
                 link: 'https://www.neverendingcycle.org/hanoi.html'
@@ -160,7 +119,7 @@ class Travels extends Component {
             {
                 id: 15,
                 continent: 'The Americas',
-                image: nyc,
+                image: '/assets/travels/americas/nyc.jpeg',
                 city: 'New York City',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/new-york-city.html'
@@ -168,7 +127,7 @@ class Travels extends Component {
             {
                 id: 16,
                 continent: 'The Americas',
-                image: chi,
+                image: '/assets/travels/americas/chi.jpeg',
                 city: 'Chicago',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/chicago.html'
@@ -176,7 +135,7 @@ class Travels extends Component {
             {
                 id: 17,
                 continent: 'The Americas',
-                image: portland,
+                image: '/assets/travels/americas/portland.jpeg',
                 city: 'Portland',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/portland.html'
@@ -184,7 +143,7 @@ class Travels extends Component {
             {
                 id: 18,
                 continent: 'The Americas',
-                image: boston,
+                image: '/assets/travels/americas/boston.jpeg',
                 city: 'Boston',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/boston.html'
@@ -192,7 +151,7 @@ class Travels extends Component {
             {
                 id: 19,
                 continent: 'The Americas',
-                image: toronto,
+                image: '/assets/travels/americas/toronto.jpeg',
                 city: 'Toronto',
                 country: 'Canada',
                 link: '#'
@@ -200,7 +159,7 @@ class Travels extends Component {
             {
                 id: 20,
                 continent: 'The Americas',
-                image: charlotte,
+                image: '/assets/travels/americas/charlotte.jpeg',
                 city: 'Charlotte',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/charlotte.html'
@@ -208,7 +167,7 @@ class Travels extends Component {
             {
                 id: 21,
                 continent: 'The Americas',
-                image: honolulu,
+                image: '/assets/travels/americas/honolulu.jpeg',
                 city: 'Honolulu',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/honolulu.html'
@@ -216,7 +175,7 @@ class Travels extends Component {
             {
                 id: 22,
                 continent: 'The Americas',
-                image: jacksonville,
+                image: '/assets/travels/americas/jacksonville.jpeg',
                 city: 'Jacksonville',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/jacksonville.html'
@@ -224,7 +183,7 @@ class Travels extends Component {
             {
                 id: 23,
                 continent: 'The Americas',
-                image: vancouver,
+                image: '/assets/travels/americas/vancouver.jpeg',
                 city: 'Vancouver',
                 country: 'Canada',
                 link: 'https://www.neverendingcycle.org/vancouver.html'
@@ -232,7 +191,7 @@ class Travels extends Component {
             {
                 id: 24,
                 continent: 'The Americas',
-                image: minneapolis,
+                image: '/assets/travels/americas/minneapolis.jpeg',
                 city: 'Minneapolis',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/minneapolis.html'
@@ -240,7 +199,7 @@ class Travels extends Component {
             {
                 id: 25,
                 continent: 'The Americas',
-                image: seattle,
+                image: '/assets/travels/americas/seattle.jpeg',
                 city: 'Seattle',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/seattle.html'
@@ -248,7 +207,7 @@ class Travels extends Component {
             {
                 id: 26,
                 continent: 'The Americas',
-                image: dc,
+                image: '/assets/travels/americas/dc.jpeg',
                 city: 'Washington DC',
                 country: 'United States',
                 link: 'https://www.neverendingcycle.org/washingtondc.html'
@@ -256,7 +215,7 @@ class Travels extends Component {
             {
                 id: 27,
                 continent: 'Europe',
-                image: london,
+                image: '/assets/travels/europe/london.jpeg',
                 city: 'London',
                 country: 'United Kingdom',
                 link: 'https://www.neverendingcycle.org/london.html'
@@ -264,7 +223,7 @@ class Travels extends Component {
             {
                 id: 28,
                 continent: 'Europe',
-                image: paris,
+                image: '/assets/travels/europe/paris.JPG',
                 city: 'Paris',
                 country: 'France',
                 link: 'https://www.neverendingcycle.org/paris.html'
@@ -272,7 +231,7 @@ class Travels extends Component {
             {
                 id: 29,
                 continent: 'Europe',
-                image: edinburgh,
+                image: '/assets/travels/europe/edinburgh.jpeg',
                 city: 'Edinburgh',
                 country: 'Scotland',
                 link: 'https://www.neverendingcycle.org/edinburgh.html'
@@ -280,7 +239,7 @@ class Travels extends Component {
             {
                 id: 30,
                 continent: 'Europe',
-                image: rome,
+                image: '/assets/travels/europe/rome.JPG',
                 city: 'Rome',
                 country: 'Italy',
                 link: 'https://www.neverendingcycle.org/rome.html'
@@ -288,7 +247,7 @@ class Travels extends Component {
             {
                 id: 31,
                 continent: 'Europe',
-                image: reykjavik,
+                image: '/assets/travels/europe/reykjavik.jpeg',
                 city: 'Reykjavik',
                 country: 'Iceland',
                 link: 'https://www.neverendingcycle.org/reykjavik.html'
@@ -296,7 +255,7 @@ class Travels extends Component {
             {
                 id: 32,
                 continent: 'Europe',
-                image: brussels,
+                image: '/assets/travels/europe/brussels.jpeg',
                 city: 'Brussels',
                 country: 'Belgium',
                 link: 'https://www.neverendingcycle.org/brussels.html'
@@ -304,7 +263,7 @@ class Travels extends Component {
             {
                 id: 33,
                 continent: 'Europe',
-                image: amsterdam,
+                image: '/assets/travels/europe/amsterdam.jpeg',
                 city: 'Amsterdam',
                 country: 'The Netherlands',
                 link: 'https://www.neverendingcycle.org/amsterdam.html'
@@ -312,7 +271,7 @@ class Travels extends Component {
             {
                 id: 34,
                 continent: 'Europe',
-                image: copenhagen,
+                image: '/assets/travels/europe/copenhagen.jpeg',
                 city: 'Copenhagen',
                 country: 'Denmark',
                 link: 'https://www.neverendingcycle.org/copenhagen.html'
@@ -320,7 +279,7 @@ class Travels extends Component {
             {
                 id: 35,
                 continent: 'Africa/Middle East',
-                image: doha,
+                image: '/assets/travels/africa/doha.JPG',
                 city: 'Doha',
                 country: 'Qatar',
                 link: 'https://www.neverendingcycle.org/doha.html'
@@ -328,7 +287,7 @@ class Travels extends Component {
             {
                 id: 36,
                 continent: 'Africa/Middle East',
-                image: capetown,
+                image: '/assets/travels/africa/capetown.jpeg',
                 city: 'Capetown',
                 country: 'South Africa',
                 link: 'https://www.neverendingcycle.org/cape-town.html'
@@ -336,7 +295,7 @@ class Travels extends Component {
             {
                 id: 37,
                 continent: 'Africa/Middle East',
-                image: dubai,
+                image: '/assets/travels/africa/dubai.jpg',
                 city: 'Dubai',
                 country: 'United Arab Emirates',
                 link: 'https://www.neverendingcycle.org/dubai.html'
@@ -349,7 +308,7 @@ class Travels extends Component {
         <div>
             <div className="container-fluid">
                 <div className="row">
-                    <span className="banner"><img src={jason_bridge} alt="travels-banner" style={{ width:"100%" }}></img></span>
+                    <span className="banner"><img src={ process.env.PUBLIC_URL + '/assets/travels/IMG_0026.jpg'} alt="travels-banner" style={{ width:"100%" }}></img></span>
                     <h1 style={{ textAlign: "center", position: "absolute" }}>Travels</h1>
                 </div>
             </div>
