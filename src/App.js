@@ -35,7 +35,7 @@ class App extends Component {
             <Route path="/unauthorized" component={Unauthorized}></Route>
             <ProtectedRoute path="/guide-form" component={Guide_Form}></ProtectedRoute>
           <div className="container">
-            <hr ></hr>
+            <hr></hr>
             <Footer />
           </div>
           
