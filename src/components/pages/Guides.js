@@ -1,11 +1,4 @@
 import React, { Component } from 'react';
-import canyon_banner from "../../assets/guides/banner.jpg";
-import united from "../../assets/guides/united.jpeg";
-import qatar from "../../assets/guides/qatar.jpeg";
-import driving from "../../assets/guides/driving.jpeg";
-import packing from "../../assets/guides/packing.jpg";
-import disneyland from "../../assets/guides/disneyland.jpg";
-import planning from "../../assets/guides/traveling.jpeg";
 import GuidesItem from './GuidesItem';
 
 class Guides extends Component {
@@ -13,7 +6,7 @@ class Guides extends Component {
         guides: [
             {
                 id: 1,
-                imgLink: united,
+                imgLink: '/assets/guides/united.jpeg',
                 firstText: 'Airlines',
                 articleLink: 'https://www.neverendingcycle.org/united-economy-plus-review.html',
                 secondText: 'Economy Class on United Airlines',
@@ -21,7 +14,7 @@ class Guides extends Component {
             },
             {
                 id: 2,
-                imgLink: qatar,
+                imgLink: 'assets/guides/qatar.jpeg',
                 firstText: 'Airlines',
                 articleLink: 'https://www.neverendingcycle.org/qatar-airways-business-class-review.html',
                 secondText: 'Business Class on Qatar Airways',
@@ -29,7 +22,7 @@ class Guides extends Component {
             },
             {
                 id: 3,
-                imgLink: driving,
+                imgLink: 'assets/guides/driving.jpeg',
                 firstText: 'Driving',
                 articleLink: 'https://www.neverendingcycle.org/long-distance-driving.html',
                 secondText: 'Long-Distance Driving',
@@ -37,7 +30,7 @@ class Guides extends Component {
             },
             {
                 id: 4,
-                imgLink: packing,
+                imgLink: 'assets/guides/packing.jpg',
                 firstText: 'Necessities',
                 articleLink: 'https://www.neverendingcycle.org/packing.html',
                 secondText: 'Packing',
@@ -45,7 +38,7 @@ class Guides extends Component {
             },
             {
                 id: 5,
-                imgLink: disneyland,
+                imgLink: 'assets/guides/disneyland.jpg',
                 firstText: 'Parks & Recreation',
                 articleLink: 'https://www.neverendingcycle.org/disneyland.html',
                 secondText: 'Disneyland',
@@ -53,7 +46,7 @@ class Guides extends Component {
             },
             {
                 id: 6,
-                imgLink: planning,
+                imgLink: 'assets/guides/traveling.jpeg',
                 firstText: 'Money',
                 articleLink: 'https://www.neverendingcycle.org/traveling-around-the-world-on-a-budget.html',
                 secondText: 'Traveling on a Budget',
@@ -67,7 +60,7 @@ class Guides extends Component {
         <div>
             <div className="container-fluid">
                 <div className="row">
-                    <span className="banner"><img src={canyon_banner} style={{ width:"100%" }} alt="guides-banner"></img></span>
+                    <span className="banner"><img src={ process.env.PUBLIC_URL + '/assets/guides/banner.jpg'} style={{ width:"100%" }} alt="guides-banner"></img></span>
                     <h1 style={{ textAlign: "center", position: "absolute" }}>Guides</h1>
                 </div>
             </div>

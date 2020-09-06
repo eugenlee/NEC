@@ -8,7 +8,7 @@ class GuidesItem extends Component {
             <div className="row align-items-start text-center">
             {this.props.guides.map((guide) => (
                 <div className="col-sm-4 mb-4" key={ guide.id }>
-                    <img src={ guide.imgLink } style={{ height:"352px", width:"100%" }} alt={ guide.firstText }></img>
+                    <img src={ process.env.PUBLIC_URL + guide.imgLink } style={{ height:"352px", width:"100%" }} alt={ guide.firstText }></img>
                     <span className="first-text">{ guide.firstText }</span>
                     <span className="second-text"><a href={ guide.articleLink } target="_blank" rel="noopener noreferrer">{ guide.secondText }</a></span>
                     <span>
