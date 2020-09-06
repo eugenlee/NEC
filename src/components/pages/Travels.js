@@ -6,19 +6,11 @@ class Travels extends Component {
         travels: [
             {
                 "continent": "Asia/Oceania",
-                "image": "/assets/travels/asia/tokyo.jpeg",
-                "city": "Tokyo",
-                "country": "Japan",
-                "link": "https://www.neverendingcycle.org/tokyo-osaka.html",
-                "body": " "
-            },
-            {
-                "continent": "Asia/Oceania",
                 "image": "/assets/travels/asia/guilin.jpeg",
                 "city": "Guilin",
                 "country": "China",
                 "link": "https://www.neverendingcycle.org/guilin.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -26,7 +18,7 @@ class Travels extends Component {
                 "city": "Hong Kong",
                 "country": "Chinese special administrative region",
                 "link": "#",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -34,7 +26,7 @@ class Travels extends Component {
                 "city": "Puerto Princessa",
                 "country": "Philippines",
                 "link": "https://www.neverendingcycle.org/puerto-princesa.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -42,7 +34,7 @@ class Travels extends Component {
                 "city": "Singapore",
                 "country": "Republic of Singapore",
                 "link": "https://www.neverendingcycle.org/singapore.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -50,7 +42,7 @@ class Travels extends Component {
                 "city": "Sydney",
                 "country": "Australia",
                 "link": "https://www.neverendingcycle.org/sydney.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -58,7 +50,7 @@ class Travels extends Component {
                 "city": "Shanghai",
                 "country": "China",
                 "link": "https://www.neverendingcycle.org/shanghai.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -66,7 +58,7 @@ class Travels extends Component {
                 "city": "Yilan",
                 "country": "Taiwan",
                 "link": "https://www.neverendingcycle.org/yilan.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -74,7 +66,7 @@ class Travels extends Component {
                 "city": "Kuala Lumpur",
                 "country": "Malaysia",
                 "link": "https://www.neverendingcycle.org/kualalumpur.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -82,7 +74,7 @@ class Travels extends Component {
                 "city": "Seoul",
                 "country": "South Korea",
                 "link": "https://www.neverendingcycle.org/seoul.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -90,7 +82,7 @@ class Travels extends Component {
                 "city": "Melbourne",
                 "country": "Australia",
                 "link": "https://www.neverendingcycle.org/melbourne.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -98,7 +90,7 @@ class Travels extends Component {
                 "city": "Beijing",
                 "country": "China",
                 "link": "https://www.neverendingcycle.org/beijing.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -106,7 +98,7 @@ class Travels extends Component {
                 "city": "Tainan",
                 "country": "Taiwan",
                 "link": "https://www.neverendingcycle.org/tainan.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Asia/Oceania",
@@ -114,7 +106,7 @@ class Travels extends Component {
                 "city": "Hanoi",
                 "country": "Vietnam",
                 "link": "https://www.neverendingcycle.org/hanoi.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -122,7 +114,7 @@ class Travels extends Component {
                 "city": "New York City",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/new-york-city.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -130,7 +122,7 @@ class Travels extends Component {
                 "city": "Chicago",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/chicago.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -138,7 +130,7 @@ class Travels extends Component {
                 "city": "Portland",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/portland.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -146,7 +138,7 @@ class Travels extends Component {
                 "city": "Boston",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/boston.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -154,7 +146,7 @@ class Travels extends Component {
                 "city": "Toronto",
                 "country": "Canada",
                 "link": "#",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -162,7 +154,7 @@ class Travels extends Component {
                 "city": "Charlotte",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/charlotte.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -170,7 +162,7 @@ class Travels extends Component {
                 "city": "Honolulu",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/honolulu.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -178,7 +170,7 @@ class Travels extends Component {
                 "city": "Jacksonville",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/jacksonville.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -186,7 +178,7 @@ class Travels extends Component {
                 "city": "Vancouver",
                 "country": "Canada",
                 "link": "https://www.neverendingcycle.org/vancouver.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -194,7 +186,7 @@ class Travels extends Component {
                 "city": "Minneapolis",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/minneapolis.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -202,7 +194,7 @@ class Travels extends Component {
                 "city": "Seattle",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/seattle.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "The Americas",
@@ -210,7 +202,7 @@ class Travels extends Component {
                 "city": "Washington DC",
                 "country": "United States",
                 "link": "https://www.neverendingcycle.org/washingtondc.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -218,7 +210,7 @@ class Travels extends Component {
                 "city": "London",
                 "country": "United Kingdom",
                 "link": "https://www.neverendingcycle.org/london.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -226,7 +218,7 @@ class Travels extends Component {
                 "city": "Paris",
                 "country": "France",
                 "link": "https://www.neverendingcycle.org/paris.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -234,7 +226,7 @@ class Travels extends Component {
                 "city": "Edinburgh",
                 "country": "Scotland",
                 "link": "https://www.neverendingcycle.org/edinburgh.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -242,7 +234,7 @@ class Travels extends Component {
                 "city": "Rome",
                 "country": "Italy",
                 "link": "https://www.neverendingcycle.org/rome.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -250,7 +242,7 @@ class Travels extends Component {
                 "city": "Reykjavik",
                 "country": "Iceland",
                 "link": "https://www.neverendingcycle.org/reykjavik.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -258,7 +250,7 @@ class Travels extends Component {
                 "city": "Brussels",
                 "country": "Belgium",
                 "link": "https://www.neverendingcycle.org/brussels.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -266,7 +258,7 @@ class Travels extends Component {
                 "city": "Amsterdam",
                 "country": "The Netherlands",
                 "link": "https://www.neverendingcycle.org/amsterdam.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Europe",
@@ -274,7 +266,7 @@ class Travels extends Component {
                 "city": "Copenhagen",
                 "country": "Denmark",
                 "link": "https://www.neverendingcycle.org/copenhagen.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Africa/Middle East",
@@ -282,7 +274,7 @@ class Travels extends Component {
                 "city": "Doha",
                 "country": "Qatar",
                 "link": "https://www.neverendingcycle.org/doha.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Africa/Middle East",
@@ -290,7 +282,7 @@ class Travels extends Component {
                 "city": "Capetown",
                 "country": "South Africa",
                 "link": "https://www.neverendingcycle.org/cape-town.html",
-                "body": " "
+                "mainBody": " "
             },
             {
                 "continent": "Africa/Middle East",
@@ -298,7 +290,7 @@ class Travels extends Component {
                 "city": "Dubai",
                 "country": "United Arab Emirates",
                 "link": "https://www.neverendingcycle.org/dubai.html",
-                "body": " "
+                "mainBody": " "
             }
         ]
     }
