@@ -12,7 +12,7 @@ Front End:
 - Figma
 - React
 
-Back End (if necessary):
+Back End:
 - MERN Stack
 ```
 
