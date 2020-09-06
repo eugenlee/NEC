@@ -5,300 +5,300 @@ class Travels extends Component {
     state = {
         travels: [
             {
-                id: 1,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/tokyo.jpeg',
-                city: 'Tokyo',
-                country: 'Japan',
-                link: 'https://www.neverendingcycle.org/tokyo-osaka.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/tokyo.jpeg",
+                "city": "Tokyo",
+                "country": "Japan",
+                "link": "https://www.neverendingcycle.org/tokyo-osaka.html",
+                "body": " "
             },
             {
-                id: 2,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/guilin.jpeg',
-                city: 'Guilin',
-                country: 'China',
-                link: 'https://www.neverendingcycle.org/guilin.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/guilin.jpeg",
+                "city": "Guilin",
+                "country": "China",
+                "link": "https://www.neverendingcycle.org/guilin.html",
+                "body": " "
             },
             {
-                id: 3,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/hongkong.jpg',
-                city: 'Hong Kong',
-                country: 'Chinese special administrative region',
-                link: '#'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/hongkong.jpg",
+                "city": "Hong Kong",
+                "country": "Chinese special administrative region",
+                "link": "#",
+                "body": " "
             },
             {
-                id: 4,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/puerto.jpg',
-                city: 'Puerto Princessa',
-                country: 'Philippines',
-                link: 'https://www.neverendingcycle.org/puerto-princesa.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/puerto.jpg",
+                "city": "Puerto Princessa",
+                "country": "Philippines",
+                "link": "https://www.neverendingcycle.org/puerto-princesa.html",
+                "body": " "
             },
             {
-                id: 5,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/singapore.jpg',
-                city: 'Singapore',
-                country: 'Republic of Singapore',
-                link: 'https://www.neverendingcycle.org/singapore.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/singapore.jpg",
+                "city": "Singapore",
+                "country": "Republic of Singapore",
+                "link": "https://www.neverendingcycle.org/singapore.html",
+                "body": " "
             },
             {
-                id: 6,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/sydney.jpg',
-                city: 'Sydney',
-                country: 'Australia',
-                link: 'https://www.neverendingcycle.org/sydney.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/sydney.jpg",
+                "city": "Sydney",
+                "country": "Australia",
+                "link": "https://www.neverendingcycle.org/sydney.html",
+                "body": " "
             },
             {
-                id: 7,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/shanghai.jpg',
-                city: 'Shanghai',
-                country: 'China',
-                link: 'https://www.neverendingcycle.org/shanghai.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/shanghai.jpg",
+                "city": "Shanghai",
+                "country": "China",
+                "link": "https://www.neverendingcycle.org/shanghai.html",
+                "body": " "
             },
             {
-                id: 8,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/yilan.jpg',
-                city: 'Yilan',
-                country: 'Taiwan',
-                link: 'https://www.neverendingcycle.org/yilan.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/yilan.jpg",
+                "city": "Yilan",
+                "country": "Taiwan",
+                "link": "https://www.neverendingcycle.org/yilan.html",
+                "body": " "
             },
             {
-                id: 9,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/kuala.jpg',
-                city: 'Kuala Lumpur',
-                country: 'Malaysia',
-                link: 'https://www.neverendingcycle.org/kualalumpur.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/kuala.jpg",
+                "city": "Kuala Lumpur",
+                "country": "Malaysia",
+                "link": "https://www.neverendingcycle.org/kualalumpur.html",
+                "body": " "
             },
             {
-                id: 10,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/seoul.jpg',
-                city: 'Seoul',
-                country: 'South Korea',
-                link: 'https://www.neverendingcycle.org/seoul.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/seoul.jpg",
+                "city": "Seoul",
+                "country": "South Korea",
+                "link": "https://www.neverendingcycle.org/seoul.html",
+                "body": " "
             },
             {
-                id: 11,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/melbourne.jpeg',
-                city: 'Melbourne',
-                country: 'Australia',
-                link: 'https://www.neverendingcycle.org/melbourne.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/melbourne.jpeg",
+                "city": "Melbourne",
+                "country": "Australia",
+                "link": "https://www.neverendingcycle.org/melbourne.html",
+                "body": " "
             },
             {
-                id: 12,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/beijing.jpg',
-                city: 'Beijing',
-                country: 'China',
-                link: 'https://www.neverendingcycle.org/beijing.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/beijing.jpg",
+                "city": "Beijing",
+                "country": "China",
+                "link": "https://www.neverendingcycle.org/beijing.html",
+                "body": " "
             },
             {
-                id: 13,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/tainan.jpeg',
-                city: 'Tainan',
-                country: 'Taiwan',
-                link: 'https://www.neverendingcycle.org/tainan.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/tainan.jpeg",
+                "city": "Tainan",
+                "country": "Taiwan",
+                "link": "https://www.neverendingcycle.org/tainan.html",
+                "body": " "
             },
             {
-                id: 14,
-                continent: 'Asia/Oceania',
-                image: '/assets/travels/asia/hanoi.jpeg',
-                city: 'Hanoi',
-                country: 'Vietnam',
-                link: 'https://www.neverendingcycle.org/hanoi.html'
+                "continent": "Asia/Oceania",
+                "image": "/assets/travels/asia/hanoi.jpeg",
+                "city": "Hanoi",
+                "country": "Vietnam",
+                "link": "https://www.neverendingcycle.org/hanoi.html",
+                "body": " "
             },
             {
-                id: 15,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/nyc.jpeg',
-                city: 'New York City',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/new-york-city.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/nyc.jpeg",
+                "city": "New York City",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/new-york-city.html",
+                "body": " "
             },
             {
-                id: 16,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/chi.jpeg',
-                city: 'Chicago',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/chicago.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/chi.jpeg",
+                "city": "Chicago",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/chicago.html",
+                "body": " "
             },
             {
-                id: 17,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/portland.jpeg',
-                city: 'Portland',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/portland.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/portland.jpeg",
+                "city": "Portland",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/portland.html",
+                "body": " "
             },
             {
-                id: 18,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/boston.jpeg',
-                city: 'Boston',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/boston.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/boston.jpeg",
+                "city": "Boston",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/boston.html",
+                "body": " "
             },
             {
-                id: 19,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/toronto.jpeg',
-                city: 'Toronto',
-                country: 'Canada',
-                link: '#'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/toronto.jpeg",
+                "city": "Toronto",
+                "country": "Canada",
+                "link": "#",
+                "body": " "
             },
             {
-                id: 20,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/charlotte.jpeg',
-                city: 'Charlotte',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/charlotte.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/charlotte.jpeg",
+                "city": "Charlotte",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/charlotte.html",
+                "body": " "
             },
             {
-                id: 21,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/honolulu.jpeg',
-                city: 'Honolulu',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/honolulu.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/honolulu.jpeg",
+                "city": "Honolulu",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/honolulu.html",
+                "body": " "
             },
             {
-                id: 22,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/jacksonville.jpeg',
-                city: 'Jacksonville',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/jacksonville.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/jacksonville.jpeg",
+                "city": "Jacksonville",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/jacksonville.html",
+                "body": " "
             },
             {
-                id: 23,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/vancouver.jpeg',
-                city: 'Vancouver',
-                country: 'Canada',
-                link: 'https://www.neverendingcycle.org/vancouver.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/vancouver.jpeg",
+                "city": "Vancouver",
+                "country": "Canada",
+                "link": "https://www.neverendingcycle.org/vancouver.html",
+                "body": " "
             },
             {
-                id: 24,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/minneapolis.jpeg',
-                city: 'Minneapolis',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/minneapolis.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/minneapolis.jpeg",
+                "city": "Minneapolis",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/minneapolis.html",
+                "body": " "
             },
             {
-                id: 25,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/seattle.jpeg',
-                city: 'Seattle',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/seattle.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/seattle.jpeg",
+                "city": "Seattle",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/seattle.html",
+                "body": " "
             },
             {
-                id: 26,
-                continent: 'The Americas',
-                image: '/assets/travels/americas/dc.jpeg',
-                city: 'Washington DC',
-                country: 'United States',
-                link: 'https://www.neverendingcycle.org/washingtondc.html'
+                "continent": "The Americas",
+                "image": "/assets/travels/americas/dc.jpeg",
+                "city": "Washington DC",
+                "country": "United States",
+                "link": "https://www.neverendingcycle.org/washingtondc.html",
+                "body": " "
             },
             {
-                id: 27,
-                continent: 'Europe',
-                image: '/assets/travels/europe/london.jpeg',
-                city: 'London',
-                country: 'United Kingdom',
-                link: 'https://www.neverendingcycle.org/london.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/london.jpeg",
+                "city": "London",
+                "country": "United Kingdom",
+                "link": "https://www.neverendingcycle.org/london.html",
+                "body": " "
             },
             {
-                id: 28,
-                continent: 'Europe',
-                image: '/assets/travels/europe/paris.JPG',
-                city: 'Paris',
-                country: 'France',
-                link: 'https://www.neverendingcycle.org/paris.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/paris.JPG",
+                "city": "Paris",
+                "country": "France",
+                "link": "https://www.neverendingcycle.org/paris.html",
+                "body": " "
             },
             {
-                id: 29,
-                continent: 'Europe',
-                image: '/assets/travels/europe/edinburgh.jpeg',
-                city: 'Edinburgh',
-                country: 'Scotland',
-                link: 'https://www.neverendingcycle.org/edinburgh.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/edinburgh.jpeg",
+                "city": "Edinburgh",
+                "country": "Scotland",
+                "link": "https://www.neverendingcycle.org/edinburgh.html",
+                "body": " "
             },
             {
-                id: 30,
-                continent: 'Europe',
-                image: '/assets/travels/europe/rome.JPG',
-                city: 'Rome',
-                country: 'Italy',
-                link: 'https://www.neverendingcycle.org/rome.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/rome.JPG",
+                "city": "Rome",
+                "country": "Italy",
+                "link": "https://www.neverendingcycle.org/rome.html",
+                "body": " "
             },
             {
-                id: 31,
-                continent: 'Europe',
-                image: '/assets/travels/europe/reykjavik.jpeg',
-                city: 'Reykjavik',
-                country: 'Iceland',
-                link: 'https://www.neverendingcycle.org/reykjavik.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/reykjavik.jpeg",
+                "city": "Reykjavik",
+                "country": "Iceland",
+                "link": "https://www.neverendingcycle.org/reykjavik.html",
+                "body": " "
             },
             {
-                id: 32,
-                continent: 'Europe',
-                image: '/assets/travels/europe/brussels.jpeg',
-                city: 'Brussels',
-                country: 'Belgium',
-                link: 'https://www.neverendingcycle.org/brussels.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/brussels.jpeg",
+                "city": "Brussels",
+                "country": "Belgium",
+                "link": "https://www.neverendingcycle.org/brussels.html",
+                "body": " "
             },
             {
-                id: 33,
-                continent: 'Europe',
-                image: '/assets/travels/europe/amsterdam.jpeg',
-                city: 'Amsterdam',
-                country: 'The Netherlands',
-                link: 'https://www.neverendingcycle.org/amsterdam.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/amsterdam.jpeg",
+                "city": "Amsterdam",
+                "country": "The Netherlands",
+                "link": "https://www.neverendingcycle.org/amsterdam.html",
+                "body": " "
             },
             {
-                id: 34,
-                continent: 'Europe',
-                image: '/assets/travels/europe/copenhagen.jpeg',
-                city: 'Copenhagen',
-                country: 'Denmark',
-                link: 'https://www.neverendingcycle.org/copenhagen.html'
+                "continent": "Europe",
+                "image": "/assets/travels/europe/copenhagen.jpeg",
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "link": "https://www.neverendingcycle.org/copenhagen.html",
+                "body": " "
             },
             {
-                id: 35,
-                continent: 'Africa/Middle East',
-                image: '/assets/travels/africa/doha.JPG',
-                city: 'Doha',
-                country: 'Qatar',
-                link: 'https://www.neverendingcycle.org/doha.html'
+                "continent": "Africa/Middle East",
+                "image": "/assets/travels/africa/doha.JPG",
+                "city": "Doha",
+                "country": "Qatar",
+                "link": "https://www.neverendingcycle.org/doha.html",
+                "body": " "
             },
             {
-                id: 36,
-                continent: 'Africa/Middle East',
-                image: '/assets/travels/africa/capetown.jpeg',
-                city: 'Capetown',
-                country: 'South Africa',
-                link: 'https://www.neverendingcycle.org/cape-town.html'
+                "continent": "Africa/Middle East",
+                "image": "/assets/travels/africa/capetown.jpeg",
+                "city": "Capetown",
+                "country": "South Africa",
+                "link": "https://www.neverendingcycle.org/cape-town.html",
+                "body": " "
             },
             {
-                id: 37,
-                continent: 'Africa/Middle East',
-                image: '/assets/travels/africa/dubai.jpg',
-                city: 'Dubai',
-                country: 'United Arab Emirates',
-                link: 'https://www.neverendingcycle.org/dubai.html'
+                "continent": "Africa/Middle East",
+                "image": "/assets/travels/africa/dubai.jpg",
+                "city": "Dubai",
+                "country": "United Arab Emirates",
+                "link": "https://www.neverendingcycle.org/dubai.html",
+                "body": " "
             }
         ]
     }

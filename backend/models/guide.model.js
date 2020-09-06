@@ -8,6 +8,7 @@ const guideSchema = new Schema({
   articleLink: { type: String, required: true },
   secondText: { type: String, required: true },
   spanBody: { type: String, required: true },
+  mainBody: { type: String, required: true }
 }, {
   timestamps: true,
 });
