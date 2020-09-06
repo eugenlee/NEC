@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../../assets/NEC_logo_crop.png";
 import { Navbar, Nav } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
@@ -7,7 +6,7 @@ function Navigation() {
     return (
         <div className="navigator">
         <Navbar expand="lg">
-        <Navbar.Brand id="logo"><Link to="/"><img src={logo} style={{width: "150px"}} alt="homepage"></img></Link></Navbar.Brand>
+        <Navbar.Brand id="logo"><Link to="/"><img src={ process.env.PUBLIC_URL + '/assets/NEC_logo_crop.png' }style={{width: "150px"}} alt="homepage"></img></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

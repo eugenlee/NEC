@@ -1,5 +1,4 @@
 import React from 'react';
-import jason from "../../assets/jason.jpg"
 
 function About() {
     return (
@@ -8,7 +7,7 @@ function About() {
             <div className="row">
 
                 <div className="col-lg-6">
-                    <img style={{ marginBottom: "30px", width:"100%" }} id="jt" src={jason} alt="Jason Tsao MUN Graduation"></img>
+                    <img style={{ marginBottom: "30px", width:"100%" }} id="jt" src={ process.env.PUBLIC_URL + '/assets/jason.jpg' } alt="Jason Tsao MUN Graduation"></img>
                 </div>
 
                 <div className="col-lg-6">

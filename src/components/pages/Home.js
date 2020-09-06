@@ -1,15 +1,11 @@
 import React from 'react';
-import home_banner from "../../assets/home/home_banner.jpg"
-import home_one from "../../assets/home/home_one.jpg"
-import home_two from "../../assets/home/home_two.jpg"
-import home_three from "../../assets/home/home_three.jpg"
 
 function Home() {
     return (
         <div>
          <div className="container-fluid">
             <div className="row">
-                <span className="col-lg-12" style={{ display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", height: "431px", marginTop: "16px", marginBottom: "25px", padding: "0px" }}><img src={home_banner} className="mx-auto d-block" style={{width: "100%"}} alt="home-banner"></img></span>
+                <span className="col-lg-12" style={{ display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", height: "431px", marginTop: "16px", marginBottom: "25px", padding: "0px" }}><img src={ process.env.PUBLIC_URL + '/assets/home/home_banner.jpg' } className="mx-auto d-block" style={{width: "100%"}} alt="home-banner"></img></span>
                 <h1 style={{textAlign: "center", position: "absolute" }}>Welcome</h1>
             </div>
          </div>
@@ -18,7 +14,7 @@ function Home() {
 
             <div className="row mb-5">
                 <div className="col-lg-6">
-                    <img className="rounded mx-auto d-block" src={home_one} alt="mountains"></img>
+                    <img className="rounded mx-auto d-block" src={ process.env.PUBLIC_URL + '/assets/home/home_one.jpg' } alt="mountains"></img>
                 </div>
                 <div className="col-lg-6 align-self-center">
                     <p style={{textAlign: "center"}}>
@@ -38,13 +34,13 @@ function Home() {
                     </p>
                 </div>
                 <div className="col-lg-6">
-                    <img className="rounded mx-auto d-block" src={home_two} style={{width:"90%"}} alt="sf bridge"></img>
+                    <img className="rounded mx-auto d-block" src={ process.env.PUBLIC_URL + '/assets/home/home_two.jpg' } style={{width:"90%"}} alt="sf bridge"></img>
                 </div>
             </div>
 
             <div className="row mb-5">
                 <div className="col-lg-6">
-                    <img className="rounded mx-auto d-block" src={home_three} style={{width:"90%"}} alt="graduation"></img>
+                    <img className="rounded mx-auto d-block" src={ process.env.PUBLIC_URL + '/assets/home/home_three.jpg' } style={{width:"90%"}} alt="graduation"></img>
                 </div>
                 <div className="col-lg-6 align-self-center">
                     <p style={{textAlign: "center"}}>

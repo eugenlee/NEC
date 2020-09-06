@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../../assets/NEC_logo_crop.png";
 import {Link} from 'react-router-dom';
 
 function Footer() {
@@ -9,7 +8,7 @@ function Footer() {
             <div className="container-fluid text-center">
             <div className="row text-left">
                 <div className="col-lg-3 mb-4">
-                <Link to="/"><img src={logo} style={{width: "120px"}} alt="homepage"></img></Link>
+                <Link to="/"><img src={ process.env.PUBLIC_URL + '/assets/NEC_logo_crop.png' } style={{width: "120px"}} alt="homepage"></img></Link>
                 <div className="footer-copyright">© Jason Tsao 2020</div>
                 </div>
 
