@@ -27,7 +27,7 @@ function Services() {
         </div>
 
 
-            <img src={ process.env.PUBLIC_URL + '/assets/guides/TravelConsultPkgChart_v5.png' } alt="services_table" style={{ width:"100%", padding: "5%"}}></img>
+            <img src={ process.env.PUBLIC_URL + '/assets/TravelConsultPkgChart_v5.png' } alt="services_table" style={{ width:"100%", padding: "5%"}}></img>
 
 
         <div id="questions?">
