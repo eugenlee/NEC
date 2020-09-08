@@ -13,7 +13,7 @@ class Travels extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/travels/')
+        axios.get('https://nec-mongodb.herokuapp.com/travels/')
           .then(response => {
             this.setState({
                 travels: response.data.map(travel => travel)

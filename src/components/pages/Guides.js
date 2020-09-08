@@ -13,7 +13,7 @@ class Guides extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/guides/')
+        axios.get('https://nec-mongodb.herokuapp.com/guides/')
           .then(response => {
             this.setState({
                 guides: response.data.map(guide => guide)
