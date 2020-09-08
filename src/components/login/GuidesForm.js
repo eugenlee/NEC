@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import auth from '../auth.js';
+import auth from './auth.js';
 
 class GuidesForm extends Component {
     render() {

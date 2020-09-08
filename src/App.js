@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { ProtectedRoute } from "./components/protected.route.js";
+import { ProtectedRoute } from "./components/login/protected.route.js";
 import './components/styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
@@ -11,9 +11,9 @@ import Travels from './components/pages/Travels';
 import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
 import ScrollToTop from './components/ScrollToTop';
-import Jason from './components/pages/JasonLogin';
-import GuidesForm from './components/pages/GuidesForm.js';
-import Unauthorized from './components/pages/Unauthorized.js';
+import Jason from './components/login/JasonLogin';
+import GuidesForm from './components/login/GuidesForm.js';
+import Unauthorized from './components/login/Unauthorized.js';
 
 
 class App extends Component {
