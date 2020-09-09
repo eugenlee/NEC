@@ -11,8 +11,8 @@ import Travels from './components/pages/Travels';
 import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
 import ScrollToTop from './components/ScrollToTop';
-import Jason from './components/login/JasonLogin';
-import GuidesForm from './components/login/GuidesForm.js';
+import Login from './components/login/Login';
+import FormBar from './components/login/FormBar.js';
 import Unauthorized from './components/login/Unauthorized.js';
 
 
@@ -31,9 +31,9 @@ class App extends Component {
             <Route path="/travels" component={Travels}></Route>
             <Route path="/guides" component={Guides}></Route>
             <Route path="/services" component={Services}></Route>
-            <Route path="/jason-login" component={Jason}></Route>
+            <Route path="/login" component={Login}></Route>
             <Route path="/unauthorized" component={Unauthorized}></Route>
-            <ProtectedRoute path="/guides-form" component={GuidesForm}></ProtectedRoute>
+            <ProtectedRoute path="/forms" component={FormBar}></ProtectedRoute>
           <div className="container">
             <hr></hr>
             <Footer />

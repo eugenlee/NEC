@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import auth from './auth.js';
 
-class GuidesForm extends Component {
+class FormBar extends Component {
     render() {
         return (
             <div style={{ textAlign: "center" }}>
-                <h1 style={{ color: "black" }}>Guide Form</h1>
+                <h1 style={{ color: "black" }}>Forms</h1>
                 <button onClick={() => {auth.logout(() => {
                     this.props.history.push("/");
                     });
@@ -15,4 +15,4 @@ class GuidesForm extends Component {
     }
 }
 
-export default GuidesForm;
+export default FormBar;

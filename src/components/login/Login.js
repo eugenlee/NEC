@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import auth from './auth.js';
 
-class JasonLogin extends Component {
+class Login extends Component {
     render() {
         return (
             <div style={{ textAlign: "center" }}>
@@ -11,7 +11,7 @@ class JasonLogin extends Component {
                 <input type="password" placeholder="Password"></input><br/><br/>
 
                 <button onClick={() => {auth.login(() => {
-                        this.props.history.push("/guides-form");
+                        this.props.history.push("/forms");
                     });
                 }}>Login</button>
             </div>
@@ -19,4 +19,4 @@ class JasonLogin extends Component {
     }
 }
 
-export default JasonLogin;
+export default Login;
