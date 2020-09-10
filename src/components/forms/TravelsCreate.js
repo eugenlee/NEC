@@ -65,7 +65,11 @@ export default class TravelsCreate extends Component {
     console.log(travel);
 
     axios.post('http://localhost:5000/travels/add', travel)
-      .then(res => console.log(res.data));
+      .then(res => {
+        console.log(res.data)
+        alert('Travel Posted!')
+      })
+      .catch(err => alert(err));
 
     this.setState({
         continent: '',
