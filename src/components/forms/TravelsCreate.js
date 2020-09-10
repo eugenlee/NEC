@@ -10,7 +10,6 @@ export default class TravelsCreate extends Component {
     this.onChangeCity = this.onChangeCity.bind(this);
     this.onChangeImage = this.onChangeImage.bind(this);
     this.onChangeLink = this.onChangeLink.bind(this);
-    this.onChangeBody = this.onChangeBody.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
@@ -19,7 +18,6 @@ export default class TravelsCreate extends Component {
       city: '',
       country: '',
       link: '',
-      mainBody: ''
     }
   }
 
@@ -53,12 +51,6 @@ export default class TravelsCreate extends Component {
     })
   }
 
-  onChangeBody(e) {
-    this.setState({
-      mainBody: e.target.value
-    })
-  }
-
   onSubmit(e) {
     e.preventDefault();
 
@@ -68,7 +60,6 @@ export default class TravelsCreate extends Component {
       city: this.state.city,
       country: this.state.country,
       link: this.state.link,
-      mainBody: this.state.mainBody 
     }
 
     console.log(travel);
@@ -81,8 +72,7 @@ export default class TravelsCreate extends Component {
         image: '',
         city: '',
         country: '',
-        link: '',
-        mainBody: ''
+        link: ''
     })
   }
 
@@ -132,18 +122,10 @@ export default class TravelsCreate extends Component {
             <input  type="text"
                 required
                 className="form-control"
-                placeholder="Weebly link"
+                placeholder="Notion link"
                 value={this.state.link}
                 onChange={this.onChangeLink}
-                />
-            <label>Body: </label>
-            <textarea  type="text"
-                required
-                className="form-control"
-                placeholder="Enter main text here"
-                value={this.state.mainBody}
-                onChange={this.onChangeBody}
-                />         
+                />      
           </div>
           <div className="form-group">
             <input type="submit" value="Create Travel" className="btn btn-primary" />

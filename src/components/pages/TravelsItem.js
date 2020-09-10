@@ -5,7 +5,7 @@ class TravelsItem extends Component {
     getContinents(continent)  {
         return this.props.travels.map((travel) => (
             travel.continent === continent ?
-            <div className="col-sm-3 mb-4" key={ travel.id }>
+            <div className="col-sm-3 mb-4" key={ travel.city }>
                 <a href={ travel.link } target="_blank" rel="noopener noreferrer"><img src={ process.env.PUBLIC_URL + travel.image } style={{ height:"240px", width:"100%" }} alt={ travel.city }></img></a>
                 <span id="cities">{ travel.city }</span>
                 <span id="countries">{ travel.country }</span>
