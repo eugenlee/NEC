@@ -114,7 +114,7 @@ export default class TravelsCreate extends Component {
                 value={this.state.imgLink}
                 onChange={this.onChangeImgLink}
                 />
-            <label>Article Link: </label>
+            <label>Link: </label>
             <input  type="text"
                 required
                 className="form-control"
