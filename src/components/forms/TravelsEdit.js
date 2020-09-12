@@ -12,6 +12,7 @@ export default class TravelsEdit extends Component {
     this.onChangeImage = this.onChangeImage.bind(this);
     this.onChangeLink = this.onChangeLink.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.deleteTravel = this.deleteTravel.bind(this);
 
     this.state = {
       _id: '',
@@ -107,10 +108,37 @@ export default class TravelsEdit extends Component {
 
   }
 
+  deleteTravel() {
+    const travel = {
+      continent: this.state.continent,
+      image: this.state.image,
+      city: this.state.city,
+      country: this.state.country,
+      link: this.state.link,
+    }
+
+    axios.delete('https://nec-mongodb.herokuapp.com/travels/' + this.state._id, travel)
+      .then(res => {
+        console.log(res.data)
+        alert('Travel Deleted!')
+      })
+      .catch(err => alert(err));
+      
+  }
+
   render() {
     return (
       <div className="container-fluid">
-        <h3>Update Travels Post</h3>
+        <div className="row">
+          <div className="col">
+            <h3>Update Travels Post</h3>
+          </div>
+          <div className="col">
+            <button style={{ float: "right", padding: 0, border: "none", background: "none"}}>
+              <img src={ process.env.PUBLIC_URL + '/assets/basura.png'} style={{ width:"1em" }} alt="delete" onClick={this.deleteTravel}/>
+              </button>
+          </div>
+        </div>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
           <label>Travel: </label>

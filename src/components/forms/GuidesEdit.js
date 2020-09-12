@@ -12,6 +12,7 @@ export default class GuidesEdit extends Component {
     this.onChangeSecondText = this.onChangeSecondText.bind(this);
     this.onChangeSpanBody = this.onChangeSpanBody.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.deleteGuide = this.deleteGuide.bind(this);
 
     this.state = {
       _id: '',
@@ -107,10 +108,37 @@ export default class GuidesEdit extends Component {
 
   }
 
+  deleteGuide() {
+    const guide = {
+      imgLink: this.state.imgLink,
+      firstText: this.state.firstText,
+      articleLink: this.state.articleLink,
+      secondText: this.state.secondText,
+      spanBody: this.state.spanBody,
+    }
+
+    axios.delete('https://nec-mongodb.herokuapp.com/guides/' + this.state._id, guide)
+      .then(res => {
+        console.log(res.data)
+        alert('Guide Deleted!')
+      })
+      .catch(err => alert(err));
+      
+  }
+
   render() {
     return (
       <div className="container-fluid">
-        <h3>Edit Guides Post</h3>
+        <div className="row">
+          <div className="col">
+            <h3>Edit Guides Post</h3>
+          </div>
+          <div className="col">
+            <button style={{ float: "right", padding: 0, border: "none", background: "none"}}>
+              <img src={ process.env.PUBLIC_URL + '/assets/basura.png'} style={{ width:"1em" }} alt="delete" onClick={this.deleteGuide}/>
+              </button>
+          </div>
+        </div>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
           <label>Guide: </label>
