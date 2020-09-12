@@ -25,7 +25,7 @@ export default class GuidesEdit extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/guides/')
+    axios.get('https://nec-mongodb.herokuapp.com/guides/')
       .then(response => {
           this.setState({
             guides: response.data.map(guide => guide.secondText),
@@ -38,7 +38,7 @@ export default class GuidesEdit extends Component {
 
   onChangeGuide(e) {
     const bebo = e.target.value;
-    axios.get('http://localhost:5000/guides/')
+    axios.get('https://nec-mongodb.herokuapp.com/guides/')
     .then(response => {
         const chicken = response.data.filter(guide => guide.secondText === bebo);
         this.setState({
@@ -98,7 +98,7 @@ export default class GuidesEdit extends Component {
 
     console.log(guide);
 
-    axios.post('http://localhost:5000/guides/update/' + this.state._id, guide)
+    axios.post('https://nec-mongodb.herokuapp.com/guides/update/' + this.state._id, guide)
       .then(res => {
         console.log(res.data)
         alert('Guide Edited!')

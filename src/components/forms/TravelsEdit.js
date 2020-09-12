@@ -25,7 +25,7 @@ export default class TravelsEdit extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/travels/')
+    axios.get('https://nec-mongodb.herokuapp.com/travels/')
       .then(response => {
           this.setState({
             travels: response.data.map(travel => travel.city),
@@ -38,7 +38,7 @@ export default class TravelsEdit extends Component {
 
   onChangeTravel(e) {
     const bebo = e.target.value;
-    axios.get('http://localhost:5000/travels/')
+    axios.get('https://nec-mongodb.herokuapp.com/travels/')
     .then(response => {
         const tendies = response.data.filter(travel => travel.city === bebo);
         this.setState({
@@ -98,7 +98,7 @@ export default class TravelsEdit extends Component {
 
     console.log(travel);
 
-    axios.post('http://localhost:5000/travels/update/' + this.state._id, travel)
+    axios.post('https://nec-mongodb.herokuapp.com/travels/update/' + this.state._id, travel)
       .then(res => {
         console.log(res.data)
         alert('Travel Edited!')

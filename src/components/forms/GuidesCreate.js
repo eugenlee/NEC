@@ -64,7 +64,7 @@ export default class TravelsCreate extends Component {
 
     console.log(guide);
 
-    axios.post('http://localhost:5000/guides/add', guide)
+    axios.post('https://nec-mongodb.herokuapp.com/guides/add', guide)
       .then(res => {
         console.log(res.data)
         alert('Guide Posted!')
