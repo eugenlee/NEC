@@ -128,7 +128,7 @@ export default class TravelsCreate extends Component {
                 />        
           </div>
           <div className="form-group">
-            <input type="submit" value="Create Travel" className="btn btn-primary" />
+            <input type="submit" value="Create Guide" className="btn btn-primary" />
           </div>
         </form>
       </div>
