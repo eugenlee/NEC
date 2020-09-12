@@ -16,6 +16,8 @@ import FormBar from './components/login/FormBar.js';
 import Unauthorized from './components/login/Unauthorized.js';
 import TravelsCreate from './components/forms/TravelsCreate';
 import GuidesCreate from './components/forms/GuidesCreate';
+import GuidesEdit from './components/forms/GuidesEdit';
+import TravelsEdit from './components/forms/TravelsEdit';
 
 
 class App extends Component {
@@ -32,8 +34,10 @@ class App extends Component {
             <Route path="/about" component={About}></Route>
             <Route exact path="/travels" component={Travels}></Route>
             <Route path="/travels/create" component={TravelsCreate}></Route>
+            <Route path="/travels/edit" component={TravelsEdit}></Route>
             <Route exact path="/guides" component={Guides}></Route>
             <Route path="/guides/create" component={GuidesCreate}></Route>
+            <Route path="/guides/edit" component={GuidesEdit}></Route>
             <Route path="/services" component={Services}></Route>
             <Route path="/login" component={Login}></Route>
             <Route path="/unauthorized" component={Unauthorized}></Route>
