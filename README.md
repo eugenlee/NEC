@@ -14,6 +14,9 @@ Front End:
 
 Back End:
 - MERN Stack
+
+State Management:
+- Redux
 ```
 
 The Sprints will be allocated as such:
