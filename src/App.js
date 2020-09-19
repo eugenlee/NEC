@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
+import { loadUser } from './actions/authAction';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import { ProtectedRoute } from "./components/login/protected.route.js";
@@ -24,6 +25,10 @@ import TravelsEdit from './components/forms/TravelsEdit';
 
 
 class App extends Component {
+  componentDidMount() {
+    store.dispatch(loadUser());
+  }
+
   render () {
     return(
       <Provider store={store}>
