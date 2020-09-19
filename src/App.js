@@ -26,7 +26,7 @@ import TravelsEdit from './components/forms/TravelsEdit';
 class App extends Component {
   render () {
     return(
-      <Provider store={store}>
+      // <Provider store={store}>
         <Router>
           <ScrollToTop />
           <div className="App">
@@ -53,7 +53,7 @@ class App extends Component {
             
           </div>
         </Router>
-      </Provider>
+      // </Provider>
     )};
 }
 
