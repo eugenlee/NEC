@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import auth from './auth.js';
 import { Navbar, Nav } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import { connect } from 'react-redux';
+// import { logout } from '../../actions/authAction';
 
 class FormBar extends Component {
     render() {
@@ -29,4 +31,4 @@ class FormBar extends Component {
     }
 }
 
-export default FormBar;
+export default connect()(FormBar);
