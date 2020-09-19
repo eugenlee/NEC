@@ -2,6 +2,7 @@ const router = require('express').Router();
 let User = require('../models/user.model');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const auth = require('../auth')
 require('dotenv').config();
 
 router.route('/').post((req, res) => {
@@ -38,6 +39,12 @@ router.route('/').post((req, res) => {
         })
 
     })
+});
+
+router.route('/user').get(auth, (req, res) => {
+    User.findById(req.user.id)
+    .select('-password')
+    .then(user => res.json(user));
 });
 
 module.exports = router;
