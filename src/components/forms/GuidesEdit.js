@@ -131,7 +131,7 @@ export default class GuidesEdit extends Component {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <h3>Edit Guides Post</h3>
+            <h3>Update Guides Post</h3>
           </div>
           <div className="col">
             <button style={{ float: "right", padding: 0, border: "none", background: "none"}}>
