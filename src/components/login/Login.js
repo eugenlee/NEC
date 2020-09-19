@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import auth from './auth.js';
+import { connect } from 'react-redux';
 
 class Login extends Component {
     render() {
@@ -19,4 +20,4 @@ class Login extends Component {
     }
 }
 
-export default Login;
+export default connect()(Login);
