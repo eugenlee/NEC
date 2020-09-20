@@ -96,6 +96,7 @@ class Login extends Component {
                             onChange={this.onChange}
                         /><br/>
                         <button color='dark'> Login </button>
+                        <div>{this.state.msg ? this.state.msg : null} </div>
                     </div>
                 </form>
             </div>
