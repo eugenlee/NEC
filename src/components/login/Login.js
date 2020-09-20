@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { login } from '../../actions/authAction';
+import { logout } from '../../actions/authAction';
 import { clearErrors } from '../../actions/errorAction';
 
 class Login extends Component {
@@ -15,7 +18,8 @@ class Login extends Component {
         isAuthenticated: PropTypes.bool,
         error: PropTypes.object.isRequired,
         login: PropTypes.func.isRequired,
-        clearErrors: PropTypes.func.isRequired
+        clearErrors: PropTypes.func.isRequired,
+        logout: PropTypes.func.isRequired
       };
     
       componentDidUpdate(prevProps) {
@@ -46,10 +50,30 @@ class Login extends Component {
     
         // Attempt to login
         this.props.login(user);
+
       };
 
     render() {
         return (
+          <div>
+          {this.props.isAuthenticated ? 
+          <div style={{ textAlign: "center" }}>
+                <h2 style={{ color: "black" }}>Hi Jason, Welcome Back to Forms</h2>
+                <Navbar expand="lg">
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mx-auto">
+                    <Link className="nav-item active" to="/travels/create">Create Travel</Link>
+                    <Link className="nav-item active ml-lg-5 !important" to="/travels/edit">Edit Travel</Link>
+                    <Link className="nav-item active ml-lg-5 !important" to="/guides/create">Create Guide</Link>
+                    <Link className="nav-item active ml-lg-5 !important" to="/guides/edit">Edit Guide</Link>
+                    </Nav>
+                </Navbar.Collapse>
+                </Navbar>
+                <br/><br/>
+                <button onClick={this.props.logout}> Logout </button>
+            </div>
+           : 
             <div>
             <h1 style={{ color: "black", textAlign: "center" }}>You Like That</h1>
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
@@ -76,6 +100,8 @@ class Login extends Component {
                 </form>
             </div>
             </div>
+          }
+          </div>
         );
     }
 }
@@ -87,5 +113,5 @@ const mapStateToProps = state => ({
 
 export default connect(
     mapStateToProps,
-    { login, clearErrors }
+    { login, clearErrors, logout }
 )(Login);

@@ -4,7 +4,6 @@ import store from './store';
 import { loadUser } from './actions/authAction';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-// import { ProtectedRoute } from "./components/login/protected.route.js";
 import './components/styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
@@ -16,7 +15,6 @@ import Guides from './components/pages/Guides';
 import Services from './components/pages/Services';
 import ScrollToTop from './components/ScrollToTop';
 import Login from './components/login/Login';
-import FormBar from './components/login/FormBar.js';
 import Unauthorized from './components/login/Unauthorized.js';
 import TravelsCreate from './components/forms/TravelsCreate';
 import GuidesCreate from './components/forms/GuidesCreate';
@@ -50,7 +48,6 @@ class App extends Component {
               <Route path="/services" component={Services}></Route>
               <Route path="/login" component={Login}></Route>
               <Route path="/unauthorized" component={Unauthorized}></Route>
-              <Route path="/forms" component={FormBar}></Route>
             <div className="container">
               <hr></hr>
               <Footer />
