@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import auth from './auth.js';
 import { Navbar, Nav } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import { connect } from 'react-redux';
-// import { logout } from '../../actions/authAction';
+import { logout } from '../../actions/authAction';
+import PropTypes from 'prop-types';
 
 class FormBar extends Component {
+    static propTypes = {
+        logout: PropTypes.func.isRequired
+      };
+
     render() {
         return (
             <div style={{ textAlign: "center" }}>
@@ -22,13 +26,13 @@ class FormBar extends Component {
                 </Navbar.Collapse>
                 </Navbar>
                 <br/><br/>
-                <button onClick={() => {auth.logout(() => {
-                    this.props.history.push("/");
-                    });
-                }}> Logout </button>
+                <button onClick={this.props.logout}> Logout </button>
             </div>
         );
     }
 }
 
-export default connect()(FormBar);
+export default connect(
+    null,
+    { logout }
+)(FormBar);

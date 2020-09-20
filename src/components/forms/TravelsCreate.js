@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { tokenConfig } from '../../actions/authAction';
+import store from '../../store';
 
 export default class TravelsCreate extends Component {
   constructor(props) {
@@ -64,7 +66,7 @@ export default class TravelsCreate extends Component {
 
     console.log(travel);
 
-    axios.post('https://nec-mongodb.herokuapp.com/travels/add', travel)
+    axios.post('https://nec-mongodb.herokuapp.com/travels/add', travel, tokenConfig(store.getState))
       .then(res => {
         console.log(res.data)
         alert('Travel Posted!')

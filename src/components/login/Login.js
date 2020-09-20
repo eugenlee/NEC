@@ -1,24 +1,91 @@
 import React, { Component } from 'react';
-import auth from './auth.js';
 import { connect } from 'react-redux';
-// import { login } from '../../actions/authAction';
+import PropTypes from 'prop-types';
+import { login } from '../../actions/authAction';
+import { clearErrors } from '../../actions/errorAction';
 
 class Login extends Component {
+    state = {
+        email: '',
+        password: '',
+        msg: null
+      };
+
+      static propTypes = {
+        isAuthenticated: PropTypes.bool,
+        error: PropTypes.object.isRequired,
+        login: PropTypes.func.isRequired,
+        clearErrors: PropTypes.func.isRequired
+      };
+    
+      componentDidUpdate(prevProps) {
+        const { error } = this.props;
+        if (error !== prevProps.error) {
+          // Check for register error
+          if (error.id === 'LOGIN_FAIL') {
+            this.setState({ msg: error.msg.msg });
+          } else {
+            this.setState({ msg: null });
+          }
+        }
+      }
+    
+      onChange = e => {
+        this.setState({ [e.target.name]: e.target.value });
+      };
+    
+      onSubmit = e => {
+        e.preventDefault();
+    
+        const { email, password } = this.state;
+    
+        const user = {
+          email,
+          password
+        };
+    
+        // Attempt to login
+        this.props.login(user);
+      };
+
     render() {
         return (
-            <div style={{ textAlign: "center" }}>
-                <h1 style={{ color: "black" }}>You Like That</h1>
-
-                <input type="text" placeholder="Username"></input><br/><br/>
-                <input type="password" placeholder="Password"></input><br/><br/>
-
-                <button onClick={() => {auth.login(() => {
-                        this.props.history.push("/forms");
-                    });
-                }}>Login</button>
+            <div>
+            <h1 style={{ color: "black", textAlign: "center" }}>You Like That</h1>
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
+                <form onSubmit={this.onSubmit}>
+                    <div className="form-group">
+                        <input
+                            type='email'
+                            name='email'
+                            id='email'
+                            placeholder='Email'
+                            className='mb-3'
+                            onChange={this.onChange}
+                        /><br/>
+                        <input
+                            type='password'
+                            name='password'
+                            id='password'
+                            placeholder='Password'
+                            className='mb-3'
+                            onChange={this.onChange}
+                        /><br/>
+                        <button color='dark'> Login </button>
+                    </div>
+                </form>
+            </div>
             </div>
         );
     }
 }
 
-export default connect()(Login);
+const mapStateToProps = state => ({
+    isAuthenticated: state.auth.isAuthenticated,
+    error: state.error
+  });
+
+export default connect(
+    mapStateToProps,
+    { login, clearErrors }
+)(Login);

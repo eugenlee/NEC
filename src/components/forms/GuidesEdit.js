@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { tokenConfig } from '../../actions/authAction';
+import store from '../../store';
 
 export default class GuidesEdit extends Component {
   constructor(props) {
@@ -99,7 +101,7 @@ export default class GuidesEdit extends Component {
 
     console.log(guide);
 
-    axios.post('https://nec-mongodb.herokuapp.com/guides/update/' + this.state._id, guide)
+    axios.post('https://nec-mongodb.herokuapp.com/guides/update/' + this.state._id, guide, tokenConfig(store.getState))
       .then(res => {
         console.log(res.data)
         alert('Guide Edited!')
@@ -109,15 +111,8 @@ export default class GuidesEdit extends Component {
   }
 
   deleteGuide() {
-    const guide = {
-      imgLink: this.state.imgLink,
-      firstText: this.state.firstText,
-      articleLink: this.state.articleLink,
-      secondText: this.state.secondText,
-      spanBody: this.state.spanBody,
-    }
 
-    axios.delete('https://nec-mongodb.herokuapp.com/guides/' + this.state._id, guide)
+    axios.delete('https://nec-mongodb.herokuapp.com/guides/' + this.state._id, tokenConfig(store.getState))
       .then(res => {
         console.log(res.data)
         alert('Guide Deleted!')

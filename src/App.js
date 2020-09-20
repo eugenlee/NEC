@@ -4,7 +4,7 @@ import store from './store';
 import { loadUser } from './actions/authAction';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { ProtectedRoute } from "./components/login/protected.route.js";
+// import { ProtectedRoute } from "./components/login/protected.route.js";
 import './components/styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
@@ -50,7 +50,7 @@ class App extends Component {
               <Route path="/services" component={Services}></Route>
               <Route path="/login" component={Login}></Route>
               <Route path="/unauthorized" component={Unauthorized}></Route>
-              <ProtectedRoute path="/forms" component={FormBar}></ProtectedRoute>
+              <Route path="/forms" component={FormBar}></Route>
             <div className="container">
               <hr></hr>
               <Footer />

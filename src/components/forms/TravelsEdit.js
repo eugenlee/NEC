@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { tokenConfig } from '../../actions/authAction';
+import store from '../../store';
 
 export default class TravelsEdit extends Component {
   constructor(props) {
@@ -99,7 +101,7 @@ export default class TravelsEdit extends Component {
 
     console.log(travel);
 
-    axios.post('https://nec-mongodb.herokuapp.com/travels/update/' + this.state._id, travel)
+    axios.post('https://nec-mongodb.herokuapp.com/travels/update/' + this.state._id, travel, tokenConfig(store.getState))
       .then(res => {
         console.log(res.data)
         alert('Travel Edited!')
@@ -109,15 +111,8 @@ export default class TravelsEdit extends Component {
   }
 
   deleteTravel() {
-    const travel = {
-      continent: this.state.continent,
-      image: this.state.image,
-      city: this.state.city,
-      country: this.state.country,
-      link: this.state.link,
-    }
 
-    axios.delete('https://nec-mongodb.herokuapp.com/travels/' + this.state._id, travel)
+    axios.delete('https://nec-mongodb.herokuapp.com/travels/' + this.state._id, tokenConfig(store.getState))
       .then(res => {
         console.log(res.data)
         alert('Travel Deleted!')
