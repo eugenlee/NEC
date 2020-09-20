@@ -4,6 +4,7 @@ import store from './store';
 import { loadUser } from './actions/authAction';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import { ProtectedRoute } from "./components/login/protected.route.js";
 import './components/styling/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/layouts/Navigation';
@@ -40,11 +41,11 @@ class App extends Component {
               <Route exact path="/" component={Home}></Route>
               <Route path="/about" component={About}></Route>
               <Route exact path="/travels" component={Travels}></Route>
-              <Route path="/travels/create" component={TravelsCreate}></Route>
-              <Route path="/travels/edit" component={TravelsEdit}></Route>
+              <ProtectedRoute path="/travels/create" component={TravelsCreate}></ProtectedRoute>
+              <ProtectedRoute path="/travels/edit" component={TravelsEdit}></ProtectedRoute>
               <Route exact path="/guides" component={Guides}></Route>
-              <Route path="/guides/create" component={GuidesCreate}></Route>
-              <Route path="/guides/edit" component={GuidesEdit}></Route>
+              <ProtectedRoute path="/guides/create" component={GuidesCreate}></ProtectedRoute>
+              <ProtectedRoute path="/guides/edit" component={GuidesEdit}></ProtectedRoute>
               <Route path="/services" component={Services}></Route>
               <Route path="/login" component={Login}></Route>
               <Route path="/unauthorized" component={Unauthorized}></Route>
