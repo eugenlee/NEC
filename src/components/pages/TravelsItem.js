@@ -7,7 +7,7 @@ class TravelsItem extends Component {
             travel.continent === continent ?
             <div className="col-sm-3 mb-4" key={ travel.city }>
                 <a href={ travel.link } target="_blank" rel="noopener noreferrer"><img src={ process.env.PUBLIC_URL + travel.image } style={{ height:"240px", width:"100%" }} alt={ travel.city }></img></a>
-                <span id="cities">{ travel.city }</span>
+                <span id="cities"><a href={ travel.link } target="_blank" rel="noopener noreferrer">{ travel.city }</a></span>
                 <span id="countries">{ travel.country }</span>
             </div>
             : ''
