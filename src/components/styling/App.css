@@ -1,8 +1,7 @@
 /* <--------------------- HOME CSS ---------------------> */
 @media only screen and (min-width: 992px) {
   #form-wrapper {
-      margin-left: 200px;
-      margin-right: 200px;
+      text-align: center;
   }
 
   .table-responsive {
@@ -291,9 +290,4 @@ table td {
 .form-control:focus {
       border-color: black!important;
       box-shadow: 0 0 0 0.2rem darkcyan!important;
-}
-
-/* <--------------------- MAILCHIMP CSS ---------------------> */
-#mc_embed_signup {
-  background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; 
 }
