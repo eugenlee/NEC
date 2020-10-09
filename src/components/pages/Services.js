@@ -1,76 +1,7 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 
 class Services extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.onChangeFirstName = this.onChangeFirstName.bind(this);
-        this.onChangeLastName = this.onChangeLastName.bind(this);
-        this.onChangeEmail = this.onChangeEmail.bind(this);
-        this.onChangeQuestion = this.onChangeQuestion.bind(this);
-        this.onSubmit = this.onSubmit.bind(this);
-    
-        this.state = {
-          firstName: '',
-          lastName: '',
-          email: '',
-          question: '',
-        }
-      }
-
-      onChangeFirstName(e) {
-        this.setState({
-          firstName: e.target.value
-        })
-      }
-
-      onChangeLastName(e) {
-        this.setState({
-          lastName: e.target.value
-        })
-      }
-
-      onChangeEmail(e) {
-        this.setState({
-          email: e.target.value
-        })
-      }
-
-      onChangeQuestion(e) {
-        this.setState({
-          question: e.target.value
-        })
-      }
-
-      onSubmit(e) {
-        e.preventDefault();
-    
-        const signup = {
-          firstName: this.state.firstName,
-          lastName: this.state.lastName,
-          email: this.state.email,
-          question: this.state.question,
-        }
-    
-        console.log(signup);
-    
-        axios.post('https://nec-mongodb.herokuapp.com/signup', signup)
-          .then(res => {
-            console.log(res.data)
-            alert('Thank you for signing up!')
-          })
-          .catch(err => alert(err));
-    
-        this.setState({
-            firstName: '',
-            lastName: '',
-            email: '',
-            question: '',
-        })
-      }
-      
     render () {
     return (
         <div className="container">
@@ -102,40 +33,45 @@ class Services extends Component {
 
 
         <div id="questions?">
-            <h1 id="q" style={{ color: "black" }}>Questions?</h1>
-            <p id="qform">Use the form below, and I will get back to you at the email you provide below</p>
+            <h1 id="q" style={{ color: "black" }}>Newsletter</h1>
+            <p id="qform">Subscribe to my newsletter for travel tips and guides!</p>
         </div>
 
         <div id="form-wrapper">
-            <p id="req">* Required Field</p>
-            <form onSubmit={this.onSubmit}>
-                <div className="form-group">
-                    <div className="row">
-                        <div className="col-sm-6">
-                            <label htmlFor="firstName">First Name*</label>
-                            <input type="text" className="form-control" id="firstName" placeholder="First Name" 
-                            required value={this.state.firstName} onChange={this.onChangeFirstName}/>
-                        </div>
-                        <div className="col-sm-6">
-                            <label htmlFor="lastName">Last Name*</label>
-                            <input type="text" className="form-control" id="lastName" placeholder="Last Name" 
-                            required value={this.state.lastName} onChange={this.onChangeLastName}/>
-                        </div>
-                    </div>
+
+          <div id="mc_embed_signup">
+
+            <form action="https://neverendingcycle.us17.list-manage.com/subscribe/post?u=ba2ce2d903727946d9203b1af&amp;id=efae2ade1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <h2>Subscribe</h2>
+                <div className="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                <div className="mc-field-group">
+                  <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"/>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Email address*</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" 
-                    required value={this.state.email} onChange={this.onChangeEmail}/>
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                <div className="mc-field-group">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME"/>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="questions">Question</label>
-                    <input type="text" className="form-control" id="questions" aria-describedby="emailHelp" placeholder="Enter Question"
-                    value={this.state.question} onChange={this.onChangeQuestion}/>
+
+                <div className="mc-field-group">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME"/>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+
+                <div id="mce-responses" class="clear">
+                  <div className="response" id="mce-error-response" style={{ display:"none" }}></div>
+                  <div className="response" id="mce-success-response" style={{ display:"none" }}></div>
+                </div>    
+                <div style= {{ position: "absolute", left: "-5000px" }}  aria-hidden="true"><input type="text" name="b_ba2ce2d903727946d9203b1af_efae2ade1d" tabindex="-1" value=""/></div>
+                <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+              </div>
             </form>
+
+          </div>
+
         </div>
 
      </div>
