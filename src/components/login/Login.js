@@ -15,17 +15,16 @@ class Login extends Component {
       };
 
       static propTypes = {
-        isAuthenticated: PropTypes.bool,
+        auth: PropTypes.object.isRequired,
         error: PropTypes.object.isRequired,
         login: PropTypes.func.isRequired,
         clearErrors: PropTypes.func.isRequired,
-        logout: PropTypes.func.isRequired
+        logout: PropTypes.func.isRequired,
       };
     
       componentDidUpdate(prevProps) {
         const { error } = this.props;
         if (error !== prevProps.error) {
-          // Check for register error
           if (error.id === 'LOGIN_FAIL') {
             this.setState({ msg: error.msg.msg });
           } else {
@@ -53,10 +52,17 @@ class Login extends Component {
 
       };
 
+      logout = () => {
+        this.props.clearErrors();
+        this.props.logout();
+      }
+
     render() {
+        const { isAuthenticated } = this.props.auth;
+
         return (
           <div>
-          {this.props.isAuthenticated ? 
+          {isAuthenticated ? 
           <div style={{ textAlign: "center" }}>
                 <h2 style={{ color: "black" }}>Hi Jason, Welcome Back to Forms</h2>
                 <Navbar expand="lg">
@@ -71,7 +77,7 @@ class Login extends Component {
                 </Navbar.Collapse>
                 </Navbar>
                 <br/><br/>
-                <button onClick={this.props.logout}> Logout </button>
+                <button onClick={this.logout}> Logout </button>
             </div>
            : 
             <div>
@@ -108,7 +114,7 @@ class Login extends Component {
 }
 
 const mapStateToProps = state => ({
-    isAuthenticated: state.auth.isAuthenticated,
+    auth: state.auth,
     error: state.error
   });
 
